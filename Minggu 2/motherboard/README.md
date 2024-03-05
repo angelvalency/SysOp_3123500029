@@ -39,7 +39,8 @@ Motherboard pertama kali digunakan pada PC produksi IBM yang dirilis pada tahun 
 ## Komponen utama
 1. **Soket CPU**
 <br>
-![App Screenshot](assets/SoketCPU(ZIF-LIF).png) <br>
+![App Screenshot](assets/SoketCPU(ZIF-LIF).png)
+<br>
 **Soket CPU(Central Prosessing Unit) atau Soket Prosesor** 
 digunakan untuk meletakkan prosesor dengan melewati lubang-lubang sesuai dengan kaki komputer.
 
