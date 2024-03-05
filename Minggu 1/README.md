@@ -49,16 +49,31 @@ Proses booting adalah langkah-langkah yang diperlukan untuk menginisialisasi dan
 Ini merupakan proses yang penting karena menentukan bagaimana sistem akan beroperasi dan berinteraksi dengan pengguna dan perangkat lain.
 
 Langkah - langkah dalam proses booting :
-1. **Power on** : Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer. Kemudian, perangkat keras akan menerima daya untuk dinyalakan.
-2. **Power-On Self-Test (POST)** : Komputer melakukan serangkaian tes untuk memastikan bahwa perangkat keras (hardware) utama berfungsi dengan baik. Ini meliputi memeriksa RAM, kartu grafis, keyboard, dan perangkat keras lainnya
+1. **Power on** : 
+Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer. Kemudian, perangkat keras akan menerima daya untuk dinyalakan.
+                <img src="booting/power on.jpeg" alt="">
+
+
+2. **Power-On Self-Test (POST)** : Komputer melakukan 
+serangkaian tes untuk memastikan bahwa perangkat keras (hardware) utama berfungsi dengan baik. Ini meliputi memeriksa RAM, kartu grafis, keyboard, dan perangkat keras lainnya
+                 <img src="booting/POST.jpg" alt="">
+
 
 3. **Inisialisasi Hardware** :sistem BIOS menginisialisasi dan mengkonfigurasi Hardware seperti hard disk, memori, dan perangkat input/output
+              <img src="booting/initialization.jpg" alt="">
+  
 
 4. **Loading Boot Loader**: Sistem kemudian mencari dan memuat boot loader dari perangkat penyimpanan yang telah ditentukan sebelumnya, biasanya hard disk atau solid-state drive (SSD). Boot loader bertanggung jawab untuk memulai sistem operasi yang sesuai. 
+            <img src="booting/boot.jpg" alt="">
 
-5. **Memuat Sistem Operasi**:sistem operasi yang dipilih dimuat ke dalam memori dari penyimpanan utama. Proses ini melibatkan file inti sistem operasi dan menginisialisasi berbagai layanan dan komponen yang diperlukan
+5. **Inisialisasi sistem** : proses booting melanjutkan dengan inisialisasi berbagai layanan dan perangkat lunak yang diperlukan, serta konfigurasi lingkungan sistem seperti pengaturan jaringan, pengaturan waktu, dan lainnya.
+            <img src="booting/boot Time.jpg" alt="">
 
-6. **Inisialisasi sistem** : proses booting melanjutkan dengan inisialisasi berbagai layanan dan perangkat lunak yang diperlukan, serta konfigurasi lingkungan sistem seperti pengaturan jaringan, pengaturan waktu, dan lainnya.
+6. **Memuat Sistem Operasi**:sistem operasi yang dipilih dimuat ke dalam memori dari penyimpanan utama. Proses ini melibatkan file inti sistem operasi dan menginisialisasi berbagai layanan dan komponen yang diperlukan
+            <img src="debian/done.png" alt="">
+
+
+
 
 # Soal Nomer 2
 **Bagaimana cara install Linux Debian di Virtual box ?**
