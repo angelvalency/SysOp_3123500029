@@ -44,18 +44,18 @@ Kedua jenis BIOS ini adalah tabel partisi yang digunakan untuk menjalankan peran
 Untuk lebih memahami perbedaan antara UEFI dan BIOS, berikut adalah tabel **perbandingan untuk kedua jenis firmware (perangkat lunak yang digunakan untuk menghubungkan sistem operasi dengan bagian hardware dari sebuah komputer)**.
 
 
-![App Screenshot](assets\UEFI_vs_Legacy.png)
+![App Screenshot](assets/UEFI_vs_Legacy.png)
 
 **Performa**
 <br>
 UEFI dan Legacy BIOS memiliki perbedaan performa yang signifikan. Berikut adalah beberapa perbandingan antara keduanya:
 
-![App Screenchot](assets\performa_legacy_uefi.png)
+![App Screenchot](assets/performa_legacy_uefi.png)
 
 **Kompatibilitas Perangkat keras**
 <br>
 
-![App Screenshot](assets\kompatibilitas_legacy_vs_uefi.png)
+![App Screenshot](assets/kompatibilitas_legacy_vs_uefi.png)
 
 # Kesimpulan
 - UEFI sudah mendukung kapasitas penyimpanan hardisk lebih dari 2 TB, sedangkan pada BIOS maksimal adalah 2 TB.
