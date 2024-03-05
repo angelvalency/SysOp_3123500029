@@ -37,11 +37,9 @@ Motherboard pertama kali digunakan pada PC produksi IBM yang dirilis pada tahun 
 <br>Seperti yang telah dijelaskan sebelumnya, **motherboard** terdiri dari beberapa bagian yang memiliki fungsi dan cara kerjanya tersendiri. Komponen didalam **motherboard** dibagi menjadi dua yaitu komponen utama dan komponen tambahan.
 
 ## Komponen utama
-1. **Soket CPU**
-<br>
+1. **Soket CPU**<br>
 ![App Screenshot](assets/SoketCPU(ZIF-LIF).png)
-<br>
-**Soket CPU(Central Prosessing Unit) atau Soket Prosesor** 
+<br>**Soket CPU(Central Prosessing Unit) atau Soket Prosesor** 
 digunakan untuk meletakkan prosesor dengan melewati lubang-lubang sesuai dengan kaki komputer.
 
 3. **BIOS (Basic Input-Output Unit)**
