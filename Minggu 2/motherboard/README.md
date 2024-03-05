@@ -18,19 +18,11 @@
 
 # Daftar Isi
  - [Pendahuluan ](#pendahuluan)
- - [Perbedaan Legacy dan UEFI](#perbedaan-legacy-dan-uefi)
- - [Definisi Motherboard](#definisi-motherboard)
  - [Struktur Motherboard](#struktur-motherboard)
  - [Kesimpulan](#kesimpulan)
  - [Daftar Pustaka](#daftar-pustaka)
 
 # Pendahuluan
-
-# Perbedaan Legacy dan UEFI
-**Legacy** adalah 
-<br>**UEFI** adalah
-
-Oleh karena itu, **perbedaan** keduanya ialah ...
 
 ## Definisi Motherboard
 **Motherboard** adalah PCB (printed circuit board) utama pada sebuah komputer untuk melakukan komunikasi antar komponen elektronik penting pada suatu sistem (seperti CPU dan memori) serta menyediakan konektor untuk peripheral lainnya.
