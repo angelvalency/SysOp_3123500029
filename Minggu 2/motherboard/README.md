@@ -37,66 +37,67 @@ Motherboard pertama kali digunakan pada PC produksi IBM yang dirilis pada tahun 
 <br>Seperti yang telah dijelaskan sebelumnya, **motherboard** terdiri dari beberapa bagian yang memiliki fungsi dan cara kerjanya tersendiri. Komponen didalam **motherboard** dibagi menjadi dua yaitu komponen utama dan komponen tambahan.
 
 ## Komponen utama
-1. **Soket CPU** 
-![App Screenshot](assets/SoketCPU(ZIF-LIF).png) 
+1. **Soket CPU**
+<br>
+![App Screenshot](assets/SoketCPU(ZIF-LIF).png) <br>
 **Soket CPU(Central Prosessing Unit) atau Soket Prosesor** 
 digunakan untuk meletakkan prosesor dengan melewati lubang-lubang sesuai dengan kaki komputer.
 
-2. **BIOS (Basic Input-Output Unit)**
+3. **BIOS (Basic Input-Output Unit)**
 ![App Screenshot]()
 **BIOS** berfungsi untuk menghubungkan perangkat kerja dan perangkat lunak 
 
-3. **Chip North Bridge Controller**
+4. **Chip North Bridge Controller**
 ![App Screenshot]()
 **Chip North Bridge Controller** mempunyai fungsi sebagai penghubung antara slot RAM, slot AGP, dan socket CPU
 
-4. **Chip South Bridge Controller**
+5. **Chip South Bridge Controller**
 ![App Screenshot]()
 **Chip South Bridge Controller** mempunyai fungsi mengendalikan periferal(perangkat tambahan komputer) pada perangkat komputer, seperti ROM BIOS, USB, keyboard, IDE controller, mouse, modem, LAN, dan lainnya.
 
-5. **Power Supply Unit Connectors**
+6. **Power Supply Unit Connectors**
 ![App Screenshot]()
 **Power Supply Unit Connectors** berupa pin untuk menghubungkan motherboard dengan power supply(jenis ATX banyak digunakan) yang membantu mematikan daya komputer tanpa menekan tombol.
 
-6. **CMOS (Complementary Metal Oxide Semiconductor)**
+7. **CMOS (Complementary Metal Oxide Semiconductor)**
 ![App Screenshot]()
 **CMOS** bisa dikatakan sebagai RAM yang memiliki kapasitas kecil dan menjadi media penyimpanan data hardware, pengaturan tanggal dan waktu, pengaturan BIOS, pengaturan booting, dll.
 
-7. **Slot IDE (Integrated Device Electronic)**
+8. **Slot IDE (Integrated Device Electronic)**
 ![App Screenshot]()
 **Slot IDE** adalah tempat menempatkan IDE di dalam motherboard dimana emiliki fungsi untuk menghubungkan Harddisk atau Optical Drive seperti CD-ROM, DVD, dan sebagainya.
 
-8. **Slot SATA (Serial Advance Technology Attachment)**
+9. **Slot SATA (Serial Advance Technology Attachment)**
 ![App Screenshot]()
 **Slot SATA** memiliki kegunaan sama dengan slot IDE namun bentuknya berbeda. Sekarang ini slot SATA lebih banyak digunakan motherboard dari pada slot IDE. Slot SATA memiliki bentuk lebih kecil seperti USB,Sedangkan slot IDE berbentuk memanjang dan memiliki banyak pin.
 
-9. **Slot RAM**
+10. **Slot RAM**
 ![App Screenshot]()
 **Slot RAM** Slot memory RAM memiliki bentuk yang mudah dikenali yaitu memanjang berada di dekat soket prosesor dan fungsinya untuk memasang RAM pada motherboard. <br>Fungsi RAM untuk menyimpan data sementara dari suatu program yang sedang dijalankan.<br> Saat ini, perangkat komputer banyak menggunakan untuk motherboard baru yang menggunakan tipe DDR3.
 
-10. **Slot AGP**
+11. **Slot AGP**
 ![App Screenshot]()
 **Slot AGP** berfungsi untuk meningkatkan grafis pada komputer, meningkatkan kecepatan gambar, menghemat CPU usage.
 
-11. **Slot PCI**
+12. **Slot PCI**
 ![App Screenshot]()
 **Slot PCI** berfungsi sebagai tempat untuk kartu Eternet, kartu LAN, kartu suara, kartu USB, kartu SATA.
 
-12. **CPU Fan Power Supply Connector**
+13. **CPU Fan Power Supply Connector**
 ![App Screenshot]()
 **CPU Fan Power Supply Connector** berfungsi untuk
 menghubungkan komputer dengan kipas CPU. Kipas ini memiliki fungsi mendinginkan CPU. 
 
-13. **Super I/O Controller**
+14. **Super I/O Controller**
 ![App Screenshot]()
 **Super I/O Controller** Sedangkan Pengontrol Super I/O merupakan bagian tempat terkumpulnya beberapa soket seperti untuk mouse, keyboard, serta percetakan dan lainnya.
 
-14. **Flash Rom**
+15. **Flash Rom**
 ![App Screenshot]()
 **Flash Rom** Memori flash atau flash ROM merupakan salah satu jenis PROM (Programmable Read Only Memory). Berbeda dengan RAM, memori jenis  ini dapat menyimpan data tanpa memerlukan daya.
 
 
-15. **Audio Codec**
+16. **Audio Codec**
 ![App Screenshot]()
 **Audio Codec** 
 
