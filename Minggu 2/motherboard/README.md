@@ -33,7 +33,7 @@ Motherboard pertama kali digunakan pada PC produksi IBM yang dirilis pada tahun 
 
 # Struktur Motherboard
 
-![App Screenshot](assets\Struktur-motherboard.jpeg)
+![App Screenshot](assets/Struktur-motherboard.jpeg)
 Seperti yang telah dijelaskan sebelumnya, **motherboard** terdiri dari beberapa bagian yang memiliki fungsi dan cara kerjanya tersendiri. Komponen didalam **motherboard** dibagi menjadi dua yaitu komponen utama dan komponen tambahan.
 
 ## Komponen utama
