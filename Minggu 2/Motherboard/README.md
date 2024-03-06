@@ -144,7 +144,7 @@ yaitu komponen yang digunakan untuk menghubungkan mesin pencetak dan mesin pemin
 yaitu komponen untuk menghubungkan dengan kabel ethernet.
 
 # Kesimpulan
-
+Motherboard adalah komponen utama dalam sebuah komputer yang berperan sebagai tulang belakang, menyediakan konektivitas elektrik antara berbagai komponen penting seperti CPU, RAM, dan periferal lainnya. Struktur motherboard mencakup berbagai komponen utama seperti soket CPU, BIOS, chip North Bridge dan South Bridge, serta slot untuk RAM, kartu grafis, dan penyimpanan. Komponen tambahan juga hadir untuk mendukung fungsionalitas seperti audio, USB, dan koneksi jaringan. Dengan peranannya yang vital, motherboard memungkinkan kerja yang efisien antar komponen dalam sistem komputer
 
 # Daftar Pustaka
 - https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/3
