@@ -26,7 +26,7 @@
 # Pendahuluan
 
 ## Definisi Motherboard
-**Motherboard** adalah PCB (printed circuit board) utama pada sebuah komputer untuk melakukan komunikasi antar komponen elektronik penting pada suatu sistem (seperti CPU dan memori) serta menyediakan konektor untuk peripheral lainnya.
+** Motherboard ** adalah PCB (printed circuit board) utama pada sebuah komputer untuk melakukan komunikasi antar komponen elektronik penting pada suatu sistem (seperti CPU dan memori) serta menyediakan konektor untuk peripheral lainnya.
 
 Sebagai PCB, motherboard berperan seperti tulang belakang komputer yang mana menyediakan konektivitas elektrik sehingga berbagai komponen PC dapat berhubungan.
 
