@@ -34,61 +34,61 @@ Motherboard pertama kali digunakan pada PC produksi IBM yang dirilis pada tahun 
 
 # Struktur Motherboard
 
-<img src="img/Struktur-motherboard.jpeg" alt="">
+<img src="assets/Struktur-motherboard.jpeg" alt="">
 Seperti yang telah dijelaskan sebelumnya, **motherboard** terdiri dari beberapa bagian yang memiliki fungsi dan cara kerjanya tersendiri. Komponen didalam **motherboard** dibagi menjadi dua yaitu komponen utama dan komponen tambahan.
 
 ## Komponen utama
 1. **Soket CPU** 
-<img src="img/SoketCPU(ZIF-LIF).png" alt="">
+<img src="assets/SoketCPU(ZIF-LIF).png" alt="">
 **Soket CPU(Central Prosessing Unit) atau Soket Prosesor** 
 digunakan untuk meletakkan prosesor dengan melewati lubang-lubang sesuai dengan kaki komputer.
 
 2. **BIOS (Basic Input-Output Unit)**
-<img src="img/bios.jpg" alt="">
+<img src="assets/bios.jpg" alt="">
 **BIOS** berfungsi untuk menghubungkan perangkat kerja dan perangkat lunak 
 
 3. **Chip North Bridge Controller**
-<img src="img/south and north bridge.jpg" alt="">
+<img src="assets/south and north bridge.jpg" alt="">
 **Chip North Bridge Controller** mempunyai fungsi sebagai penghubung antara slot RAM, slot AGP, dan socket CPU
 
 4. **Chip South Bridge Controller**
-<img src="img/south and north bridge.jpg" alt="">
+<img src="assets/south and north bridge.jpg" alt="">
 
     **Chip South Bridge Controller** mempunyai fungsi mengendalikan periferal(perangkat tambahan komputer) pada perangkat komputer, seperti ROM BIOS, USB, keyboard, IDE controller, mouse, modem, LAN, dan lainnya.
 
 5. **Power Supply Unit Connectors**
-<img src="img/Power Supply Unit Connectors.jpg" alt="">
+<img src="assets/Power Supply Unit Connectors.jpg" alt="">
 **Power Supply Unit Connectors** berupa pin untuk menghubungkan motherboard dengan power supply(jenis ATX banyak digunakan) yang membantu mematikan daya komputer tanpa menekan tombol.
 
 6. **CMOS (Complementary Metal Oxide Semiconductor)**
-<img src="img/cmos.jpg" alt="">
+<img src="assets/cmos.jpg" alt="">
 **CMOS** bisa dikatakan sebagai RAM yang memiliki kapasitas kecil dan menjadi media penyimpanan data hardware, pengaturan tanggal dan waktu, pengaturan BIOS, pengaturan booting, dll.
 
 7. **Slot IDE (Integrated Device Electronic)**
-<img src="img/slot_sata_dan_slot_ide.jpg" alt="">
+<img src="assets/slot_sata_dan_slot_ide.jpg" alt="">
 **Slot IDE** adalah tempat menempatkan IDE di dalam motherboard dimana emiliki fungsi untuk menghubungkan Harddisk atau Optical Drive seperti CD-ROM, DVD, dan sebagainya.
 
 8. **Slot SATA (Serial Advance Technology Attachment)**
-<img src="img/slot_sata_dan_slot_ide.jpg" alt="">
+<img src="assets/slot_sata_dan_slot_ide.jpg" alt="">
 **Slot SATA** memiliki kegunaan sama dengan slot IDE namun bentuknya berbeda. Sekarang ini slot SATA lebih banyak digunakan motherboard dari pada slot IDE. Slot SATA memiliki bentuk lebih kecil seperti USB,Sedangkan slot IDE berbentuk memanjang dan memiliki banyak pin.
 
 9. **Slot RAM**
 
-      <img src="img/slot ram.jpeg" alt="">
+      <img src="assets/slot ram.jpeg" alt="">
 
 
     **Slot RAM** Slot memory RAM memiliki bentuk yang mudah dikenali yaitu memanjang berada di dekat soket prosesor dan fungsinya untuk memasang RAM pada motherboard. <br>Fungsi RAM untuk menyimpan data sementara dari suatu program yang sedang dijalankan.<br> Saat ini, perangkat komputer banyak menggunakan untuk motherboard baru yang menggunakan tipe DDR3.
 
 10. **Slot AGP**
-<img src="img/slot Agp.jpg" alt="">
+<img src="assets/slot Agp.jpg" alt="">
 **Slot AGP** berfungsi untuk meningkatkan grafis pada komputer, meningkatkan kecepatan gambar, menghemat CPU usage.
 
 11. **Slot PCI**
-<img src="img/Slot Pci.jpeg" alt="">
+<img src="assets/Slot Pci.jpeg" alt="">
 **Slot PCI** berfungsi sebagai tempat untuk kartu Eternet, kartu LAN, kartu suara, kartu USB, kartu SATA.
 
 12. **CPU Fan Power Supply Connector**
-<img src="img/motherboardfanconnector.jpg" alt="">
+<img src="assets/motherboardfanconnector.jpg" alt="">
 **CPU Fan Power Supply Connector** berfungsi untuk
 menghubungkan komputer dengan kipas CPU. Kipas ini memiliki fungsi mendinginkan CPU. 
 
@@ -99,13 +99,13 @@ menghubungkan komputer dengan kipas CPU. Kipas ini memiliki fungsi mendinginkan 
       **Super I/O Controller** Sedangkan Pengontrol Super I/O merupakan bagian tempat terkumpulnya beberapa soket seperti untuk mouse, keyboard, serta percetakan dan lainnya.
 
 14. **Flash Rom**
-<img src="img/flashrom.jpg" alt="">
+<img src="assets/flashrom.jpg" alt="">
 **Flash Rom** Memori flash atau flash ROM merupakan salah satu jenis PROM (Programmable Read Only Memory). Berbeda dengan RAM, memori jenis  ini dapat menyimpan data tanpa memerlukan daya.
 
 
 15. **Audio Codec**
 
-    <img src="img/audiocodec.jpeg" alt="">
+    <img src="assets/audiocodec.jpeg" alt="">
 
 
 **Audio Codec** 
