@@ -94,7 +94,7 @@ menghubungkan komputer dengan kipas CPU. Kipas ini memiliki fungsi mendinginkan 
 
 13. **Super I/O Controller**
 
-      <img src="img/IO.jpeg" alt="">
+      <img src="assets/IO.jpeg" alt="">
 
       **Super I/O Controller** Sedangkan Pengontrol Super I/O merupakan bagian tempat terkumpulnya beberapa soket seperti untuk mouse, keyboard, serta percetakan dan lainnya.
 
