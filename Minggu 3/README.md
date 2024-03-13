@@ -76,7 +76,6 @@
 
 [MICROSOFT IOPS](https://learn.microsoft.com/id-id/azure/virtual-machines/premium-storage-performance)
 
-[WIKIPEDIA FLOPS](https://id.wikipedia.org/wiki/FLOPS)
 
 
 
