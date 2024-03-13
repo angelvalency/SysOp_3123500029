@@ -42,11 +42,11 @@ Apa itu Fetch?
 ![App Screenshot](ppt/fetch.png)
 
 ### Slide 7
-Apa itu Decode
+Apa itu Decode?
 ![App Screenshot](ppt/decode.png)
 
 ### Slide 8
-Apa itu Execute
+Apa itu Execute?
 ![App Screenshot](ppt/execute.png)
 
 ### Slide 9
