@@ -29,7 +29,7 @@
 <h2 align="center">Melakukan Benchmarking pada PC</h2>
 
 1. **Melakukan Instalasi Package GCC,Make dan Git pada Debian 12 yang sudah terinstall**
-<img src="img/sudoaptupdate.jpg" alt="">
+<img src="img/sudo-apt-update.jpg" alt="">
 <br>
 <img src="img/sudogcc.jpg" alt="">
 
