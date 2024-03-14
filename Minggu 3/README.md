@@ -79,25 +79,3 @@
 
 [WIKIPEDIA FLOPS](https://id.wikipedia.org/wiki/FLOPS)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> cec56d9a1973e092d75bf908e048ef3153a5f9b1
