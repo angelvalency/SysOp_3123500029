@@ -380,9 +380,8 @@ Operasi input-output pipeline redirection pada sistem Debian/Linux memungkinkan 
  - Mengalihkan Output: Mengarahkan output dari suatu perintah ke file atau perangkat lain.<br>
  - Menggunakan Pipelines: Mengalirkan output dari satu perintah ke input dari perintah berikutnya.<br> 
  - Penanganan Pesan Kesalahan: Memisahkan penanganan pesan kesalahan dari output utama.<br> 
- - Mengatur Aliran Data: Menggunakan operator seperti >, >>, <, |, 2>, 2>&1 untuk mengatur arah aliran data input dan output
- <br>
- - Fleksibilitas: Menyediakan fleksibilitas dalam mengelola output dan input perintah-perintah, memungkinkan penyimpanan output dalam file untuk analisis atau referensi di masa mendatang
+ - Mengatur Aliran Data: Menggunakan operator seperti >, >>, <, |, 2>, 2>&1 untuk mengatur arah aliran data input dan output <br>
+ -  Fleksibilitas: Menyediakan fleksibilitas dalam mengelola output dan input perintah-perintah, memungkinkan penyimpanan output dalam file untuk analisis atau referensi di masa mendatang
 
 <br>
 
