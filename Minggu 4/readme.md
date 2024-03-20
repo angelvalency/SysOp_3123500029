@@ -68,7 +68,7 @@
    <img src="img/ps.png" alt="">
    <br>
    Analisis:
-   <br>Perintah ps untuk mendaftar process yang sedang berjalan dan menampilkan informasi tentang process tersebut. ps sederhana akan mencetak 4 kolom informasi untuk minimum dua proses yang berjalan di shell saat ini, shell itu sendiri, dan proses yang berjalan di shell ketika perintah dipanggil. Output termasuk informasi tentang shell (bash) dan proses yang berjalan di shell ini:
+   <br>Perintah ps untuk mendaftar process yang sedang berjalan dan menampilkan informasi tentang process tersebut. ps sederhana akan mencetak 4 kolom informasi untuk minimum dua proses yang berjalan di shell saat ini, shell itu sendiri, dan proses yang berjalan di shell ketika perintah dipanggil. Output termasuk informasi tentang shell (bash) dan proses yang berjalan di shell ini:<br>
    -  PID – process ID. Biasanya, saat menjalankan perintah ps, informasi paling penting yang dicari pengguna adalah proses PID. Mengetahui PID memungkinkan Anda untuk menghentikan proses yang tidak berfungsi.<br>
    - TTY – Nama terminal pengendali untuk proses.<br>
    - TIME – Waktu CPU kumulatif dari proses, ditampilkan dalam menit dan detik.<br>
