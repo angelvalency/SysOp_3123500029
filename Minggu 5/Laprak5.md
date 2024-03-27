@@ -99,6 +99,7 @@ Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktu
 <br>
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps
+   <br>
 Jawab: Perintah menampilkan ps yaitu :
 * -e : digunakan untuk melakukan semua proses
 * -C : digunakan untuk menyaring proses berdasarkan nama / perintah
