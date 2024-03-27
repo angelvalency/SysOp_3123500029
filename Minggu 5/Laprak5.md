@@ -36,7 +36,7 @@ Proses yang diciptakan oleh pemakai langsung pada terminal (interaktif, dialog)
 <br>
 <br>
 •	Batch
-Proses yang dikumpulkan dan dijalankan secara sekuensial (satu persatu).   Proses Batch tidak diasosiasikan (berinteraksi) dengan terminal.
+Proses yang dikumpulkan dan dijalankan secara sekuensial (satu persatu).   Prose Batch tidak diasosiasikan (berinteraksi) dengan terminal.
 <br>
 <br>
 •	Daemon
@@ -82,55 +82,51 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 
 # Tugas Pendahuluan
 Jawablah pertanyaan-pertanyaan di bawah ini :
-<br>1. Apa yang dimaksud dengan proses ?<br>
+1.	Apa yang dimaksud dengan proses ?
+<br>
 Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
-<br>
-<br>
-2. Apa yang dimaksud perintah untuk menampilkan status proses :
-ps, pstree.
-<br>
+
+2.	Apa yang dimaksud perintah untuk menampilkan status proses :
+ps, pstree.<br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
-- PID: nomor identifikasi proses.
-- TTY: Nama konsol tempat pengguna masuk.
-- WAKTU: Jumlah waktu CPU yang digunakan proses.
-- CMD: nama perintah yang memulai proses
+* PID: nomor identifikasi proses.
+<br>
+* TTY: Nama konsol tempat pengguna masuk.
+<br>
+* WAKTU: Jumlah waktu CPU yang digunakan proses.
+<br>
+* CMD: nama perintah yang memulai proses
+<br>
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
-<br>
-<br>
+
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps<br>
-Jawab: Perintah menampilkan ps yaitu : 
-- -e : digunakan untuk melakukan semua proses <br>
-- -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
-- -f : digunakan untuk menampilkan semua informasi secara lengkap. <br>
-- -r : digunakan untuk menampilkan proses yang sedang berjalan <br>
-- -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat  <br>
-- -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja <br>
-- -aux dan -fae : melihat informasi proses secara keseluruhan <br>
-- -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID) <br>
-- -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan <br>
-<br>
-<br>
+Jawab: Perintah menampilkan ps yaitu :
+* -e : digunakan untuk melakukan semua proses
+* -C : digunakan untuk menyaring proses berdasarkan nama / perintah
+* -f : digunakan untuk menampilkan semua informasi secara lengkap.
+* -r : digunakan untuk menampilkan proses yang sedang berjalan
+* -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat prosesnya
+* -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja
+* -aux dan -fae : melihat informasi proses secara keseluruhan
+* -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID)
+* -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan
+
 4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
 <br>
 Jawab: Sinyal data atau informasi yang sudah mengalami beberapa proses sedemikian rupa hingga akhirnya menjadi sebuah informasi matang untuk dikirim ke pihak penerima. Proses dapat mengirim dan menerima sinyal dari dan ke proses lainnya. Proses mengirim sinyal melalui instruksi “kill” dengan format
 kill [-nomor sinyal] PID
-<br>
-<br>
-5.	Apa yang dimaksud dengan proses foreground dan background pada job control ?
-<br>
-Jawab:
-<br>
-- forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar <br>
-- Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
-<br>
-<br>
+
+5.	Apa yang dimaksud dengan proses foreground dan background pada job control ?<br>
+Jawab: 
+* forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar
+* Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
+
 6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas :
-top, nice, renice.
-<br>
-Jawab: <br>
-- top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya <br>
-- nice : melihat proses mana yang memakan sumber daya yang paling banyak, sehingga dapat membantu dalam mengidentifikasi proses-proses yang membutuhkan perhatian khusus dengan memberikan nilai (biasanya dari -20 hingga 19) yang menentukan prioritas proses tersebut. Semakin rendah nilai yang diberikan, semakin tinggi prioritasnya. <br>
-- renice : digunakan untuk mengubah prioritas proses yang sedang berjalan 
+top, nice, renice. <br>
+Jawab: 
+* top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya
+* nice : melihat proses mana yang memakan sumber daya yang paling banyak, sehingga dapat membantu dalam mengidentifikasi proses-proses yang membutuhkan perhatian khusus dengan memberikan nilai (biasanya dari -20 hingga 19) yang menentukan prioritas proses tersebut. Semakin rendah nilai yang diberikan, semakin tinggi prioritasnya.
+* renice : digunakan untuk mengubah prioritas proses yang sedang berjalan 
 dengan menyesuaikan prioritas proses yang sudah berjalan dengan memberikan nilai prioritas baru 
 yang dilakukan setelah proses telah dimulai untuk memodifikasikan prioritasnya sesuai kebutuhan
 <br>
