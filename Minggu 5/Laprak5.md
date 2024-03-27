@@ -84,20 +84,20 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 Jawablah pertanyaan-pertanyaan di bawah ini :
 1.	Apa yang dimaksud dengan proses ?
 <br>
-Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
+Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU<br>
 
 2.	Apa yang dimaksud perintah untuk menampilkan status proses :
 ps, pstree.<br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
 * PID: nomor identifikasi proses.
-<br>
+
 * TTY: Nama konsol tempat pengguna masuk.
-<br>
+
 * WAKTU: Jumlah waktu CPU yang digunakan proses.
-<br>
+
 * CMD: nama perintah yang memulai proses
-<br>
-Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
+
+Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.<br>
 
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps<br>
 Jawab: Perintah menampilkan ps yaitu :
@@ -111,8 +111,7 @@ Jawab: Perintah menampilkan ps yaitu :
 * -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID)
 * -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan
 
-4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
-<br>
+4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ? <br>
 Jawab: Sinyal data atau informasi yang sudah mengalami beberapa proses sedemikian rupa hingga akhirnya menjadi sebuah informasi matang untuk dikirim ke pihak penerima. Proses dapat mengirim dan menerima sinyal dari dan ke proses lainnya. Proses mengirim sinyal melalui instruksi “kill” dengan format
 kill [-nomor sinyal] PID
 
@@ -121,7 +120,7 @@ Jawab:
 * forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar
 * Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
 
-6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas :
+6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas : <br>
 top, nice, renice. <br>
 Jawab: 
 * top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya
