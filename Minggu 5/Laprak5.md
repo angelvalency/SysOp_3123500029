@@ -102,15 +102,15 @@ Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktu
    <br>
 Jawab: Perintah menampilkan ps yaitu :
 <br>
-* -e: digunakan untuk melakukan semua proses <br>
+* -e : digunakan untuk melakukan semua proses <br>
 * -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
 * -f : digunakan untuk menampilkan semua informasi secara lengkap. <br>
-* -r : digunakan untuk menampilkan proses yang sedang berjalan
-* -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat prosesnya
-* -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja
-* -aux dan -fae : melihat informasi proses secara keseluruhan
-* -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID)
-* -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan
+* -r : digunakan untuk menampilkan proses yang sedang berjalan <br>
+* -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat  <br>
+* -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja <br>
+* -aux dan -fae : melihat informasi proses secara keseluruhan <br>
+* -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID) <br>
+* -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan <br>
 <br>
 <br>
 4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
