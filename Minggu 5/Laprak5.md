@@ -82,12 +82,12 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 
 # Tugas Pendahuluan
 Jawablah pertanyaan-pertanyaan di bawah ini :
+<br>
 1.	Apa yang dimaksud dengan proses ?<br>
 Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 <br>
 2. Apa yang dimaksud perintah untuk menampilkan status proses :
 ps, pstree.
-<br>
 <br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
 * PID: nomor identifikasi proses.
@@ -102,7 +102,6 @@ Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktu
 <br>
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps
-<br>
 Jawab: Perintah menampilkan ps yaitu :
 <br>
 * -e : digunakan untuk melakukan semua proses
