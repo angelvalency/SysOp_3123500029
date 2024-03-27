@@ -85,7 +85,7 @@ Jawablah pertanyaan-pertanyaan di bawah ini :
 1.	Apa yang dimaksud dengan proses ?<br>
 Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 <br>
-2.	Apa yang dimaksud perintah untuk menampilkan status proses :
+2. Apa yang dimaksud perintah untuk menampilkan status proses :
 ps, pstree.
 <br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
