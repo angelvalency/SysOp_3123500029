@@ -85,14 +85,15 @@ Jawablah pertanyaan-pertanyaan di bawah ini :
 <br>1. Apa yang dimaksud dengan proses ?<br>
 Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 <br>
-<br>2. Apa yang dimaksud perintah untuk menampilkan status proses :
+<br>
+2. Apa yang dimaksud perintah untuk menampilkan status proses :
 ps, pstree.
 <br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
 - PID: nomor identifikasi proses.
 - TTY: Nama konsol tempat pengguna masuk.
 - WAKTU: Jumlah waktu CPU yang digunakan proses.
-- CMD: nama perintah yang memulai proses<br>
+- CMD: nama perintah yang memulai proses
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
 <br>
 <br>
@@ -126,7 +127,7 @@ Jawab:
 6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas :
 top, nice, renice.
 <br>
-Jawab: 
+Jawab: <br>
 - top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya <br>
 - nice : melihat proses mana yang memakan sumber daya yang paling banyak, sehingga dapat membantu dalam mengidentifikasi proses-proses yang membutuhkan perhatian khusus dengan memberikan nilai (biasanya dari -20 hingga 19) yang menentukan prioritas proses tersebut. Semakin rendah nilai yang diberikan, semakin tinggi prioritasnya. <br>
 - renice : digunakan untuk mengubah prioritas proses yang sedang berjalan 
