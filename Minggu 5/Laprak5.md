@@ -93,14 +93,14 @@ Jawab: perintah ps menampilkan proses di linux yang berupa:
 * PID: nomor identifikasi proses.
 * TTY: Nama konsol tempat pengguna masuk.
 * WAKTU: Jumlah waktu CPU yang digunakan proses.
-* CMD: nama perintah yang memulai proses
-<br>
+* CMD: nama perintah yang memulai proses<br>
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
 <br>
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps
    <br>
 Jawab: Perintah menampilkan ps yaitu :
+<br>
 <br>
 • -e : digunakan untuk melakukan semua proses <br>
 • -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
