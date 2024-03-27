@@ -88,6 +88,7 @@ Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 2. Apa yang dimaksud perintah untuk menampilkan status proses :
 ps, pstree.
 <br>
+<br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
 * PID: nomor identifikasi proses.
 <br>
@@ -98,6 +99,7 @@ Jawab: perintah ps menampilkan proses di linux yang berupa:
 * CMD: nama perintah yang memulai proses
 <br>
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
+<br>
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps
 <br>
@@ -111,17 +113,21 @@ Jawab: Perintah menampilkan ps yaitu :
 * -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja
 * -aux dan -fae : melihat informasi proses secara keseluruhan
 * -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID)
-* -ppid
+* -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan
+<br>
+<br>
 4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
 <br>
 Jawab: Sinyal data atau informasi yang sudah mengalami beberapa proses sedemikian rupa hingga akhirnya menjadi sebuah informasi matang untuk dikirim ke pihak penerima. Proses dapat mengirim dan menerima sinyal dari dan ke proses lainnya. Proses mengirim sinyal melalui instruksi “kill” dengan format
 kill [-nomor sinyal] PID
 <br>
+<br>
 5.	Apa yang dimaksud dengan proses foreground dan background pada job control ?
 <br>
 Jawab: 
-* forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar
+* forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar 
 * Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
+<br>
 <br>
 6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas :
 top, nice, renice.
