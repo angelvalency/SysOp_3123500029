@@ -82,8 +82,7 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 
 # Tugas Pendahuluan
 Jawablah pertanyaan-pertanyaan di bawah ini :
-1.	Apa yang dimaksud dengan proses ?
-<br>
+1.	Apa yang dimaksud dengan proses ?<br>
 Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 <br>
 2.	Apa yang dimaksud perintah untuk menampilkan status proses :
