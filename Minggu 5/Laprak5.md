@@ -96,7 +96,7 @@ Jawab: perintah ps menampilkan proses di linux yang berupa:
 
 * CMD: nama perintah yang memulai proses
 
-Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.<br>
+<br>Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.<br>
 
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps<br>
 Jawab: Perintah menampilkan ps yaitu :
