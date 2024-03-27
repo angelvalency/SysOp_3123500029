@@ -97,11 +97,8 @@ Jawab: perintah ps menampilkan proses di linux yang berupa:
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
 <br>
 <br>
-3.	Sebutkan opsi yang dapat diberikan pada perintah ps
-   <br>
+3.	Sebutkan opsi yang dapat diberikan pada perintah ps<br>
 Jawab: Perintah menampilkan ps yaitu :
-<br>
-<br>
 • -e : digunakan untuk melakukan semua proses <br>
 • -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
 • -f : digunakan untuk menampilkan semua informasi secara lengkap. <br>
