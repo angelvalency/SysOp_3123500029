@@ -100,7 +100,6 @@ Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktu
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps
 Jawab: Perintah menampilkan ps yaitu :
-<br>
 * -e : digunakan untuk melakukan semua proses
 * -C : digunakan untuk menyaring proses berdasarkan nama / perintah
 * -f : digunakan untuk menampilkan semua informasi secara lengkap.
@@ -120,7 +119,8 @@ kill [-nomor sinyal] PID
 <br>
 5.	Apa yang dimaksud dengan proses foreground dan background pada job control ?
 <br>
-Jawab: 
+Jawab:
+<br>
 * forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar 
 * Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
 <br>
