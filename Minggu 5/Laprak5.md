@@ -182,7 +182,7 @@ Analisis: menampilkan daftar proses yang dimiliki pengguna tertentu (username) b
 <br>
 Analisis: Perintah ps -a hanya  menampilkan daftar proses tanpa informasi tambahan tentang pemilik proses
 
-![App Screenshoot](assets\ps-au.png)
+![App Screenshoot](assets/ps-au.png)
 <br>
 Analisis: ps -au menampilkan daftar proses denfan menyertakan informasi pengguna disetiap proses
 
@@ -232,7 +232,7 @@ Analisis: ps -ef digunakan untuk  menampilkan daftar semua proses yang berjalan 
 <br>
 Analisis:ps -eo pid cmd digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya PID (Process ID) dan perintah (cmd) yang menjalankan proses tersebut
 
-![App Screenshoot](assets\ps-eo-pid-ppid-mem-cmd-more.png)
+![App Screenshoot](assets/ps-eo-pid-ppid-mem-cmd-more.png)
 <br>
 Analisis: ps -eo,pid,ppid,%mem,cmd | more digunakan untuk menampilkan daftar semua proses yang berjalan di sistem, dengan menampilkan hanya kolom PID (Process ID), PPID (Parent Process ID), %MEM (persentase memori yang digunakan oleh proses), dan CMD (command) yang menjalankan proses tersebut
 
