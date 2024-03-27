@@ -90,24 +90,24 @@ Jawab: Program yang sedang diekssekusi atau dijalankan oleh CPU
 ps, pstree.
 <br>
 Jawab: perintah ps menampilkan proses di linux yang berupa: 
-* PID: nomor identifikasi proses.
-* TTY: Nama konsol tempat pengguna masuk.
-* WAKTU: Jumlah waktu CPU yang digunakan proses.
-* CMD: nama perintah yang memulai proses<br>
+- PID: nomor identifikasi proses.
+- TTY: Nama konsol tempat pengguna masuk.
+- WAKTU: Jumlah waktu CPU yang digunakan proses.
+- CMD: nama perintah yang memulai proses<br>
 Sedangkan pstree merupakan perintah untuk menampilkan pstree menampilkan struktur hierarki pohon dari semua proses yang berjalan.
 <br>
 <br>
 3.	Sebutkan opsi yang dapat diberikan pada perintah ps<br>
 Jawab: Perintah menampilkan ps yaitu : 
-* -e : digunakan untuk melakukan semua proses <br>
-• -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
-• -f : digunakan untuk menampilkan semua informasi secara lengkap. <br>
-• -r : digunakan untuk menampilkan proses yang sedang berjalan <br>
-• -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat  <br>
-• -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja <br>
-• -aux dan -fae : melihat informasi proses secara keseluruhan <br>
-• -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID) <br>
-• -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan <br>
+- -e : digunakan untuk melakukan semua proses <br>
+- -C : digunakan untuk menyaring proses berdasarkan nama / perintah <br>
+- -f : digunakan untuk menampilkan semua informasi secara lengkap. <br>
+- -r : digunakan untuk menampilkan proses yang sedang berjalan <br>
+- -u : digunakan untuk menampilkan proses pada user tertentu saja. Biasanya diikuti dengan menggunakan nama user yang ingin dilihat  <br>
+- -o : digunakan untuk menampilkan proses yang menggunakan kata kunci tertentu saja <br>
+- -aux dan -fae : melihat informasi proses secara keseluruhan <br>
+- -pid : digunakan untuk menampilkan informasi proses berdasarkan Process ID (PID) <br>
+- -ppid : menampilkan ID proses dari proses yang membuat proses yang sedang berjalan <br>
 <br>
 <br>
 4.	Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
@@ -120,17 +120,17 @@ kill [-nomor sinyal] PID
 <br>
 Jawab:
 <br>
-• forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar <br>
-• Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
+- forehand: mengontrol shell - menerima input dari keyboard dan mengirim output ke layar <br>
+- Background: tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi
 <br>
 <br>
 6.	Apa yang dimaksud perintah-perintah penjadwalan prioritas :
 top, nice, renice.
 <br>
 Jawab: 
-• top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya <br>
-• nice : melihat proses mana yang memakan sumber daya yang paling banyak, sehingga dapat membantu dalam mengidentifikasi proses-proses yang membutuhkan perhatian khusus dengan memberikan nilai (biasanya dari -20 hingga 19) yang menentukan prioritas proses tersebut. Semakin rendah nilai yang diberikan, semakin tinggi prioritasnya. <br>
-• renice : digunakan untuk mengubah prioritas proses yang sedang berjalan 
+- top: menampilkan daftar proses yang sedang berjalan secara real-time beserta informasi terkait penggunaan sumber daya seperti CPU, memori, dan lainnya <br>
+- nice : melihat proses mana yang memakan sumber daya yang paling banyak, sehingga dapat membantu dalam mengidentifikasi proses-proses yang membutuhkan perhatian khusus dengan memberikan nilai (biasanya dari -20 hingga 19) yang menentukan prioritas proses tersebut. Semakin rendah nilai yang diberikan, semakin tinggi prioritasnya. <br>
+- renice : digunakan untuk mengubah prioritas proses yang sedang berjalan 
 dengan menyesuaikan prioritas proses yang sudah berjalan dengan memberikan nilai prioritas baru 
 yang dilakukan setelah proses telah dimulai untuk memodifikasikan prioritasnya sesuai kebutuhan
 <br>
