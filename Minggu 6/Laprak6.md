@@ -124,12 +124,16 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 1.	Login sebagai root.
 2.	Buka 3 terminal, tampilkan pada screen yang sama.
     ![App Screenshoot](assets/percobaan/6_1_2_login_root.png)
-3.	Pada setiap terminal, ketik PS1 = ” \w:” diikuti Enter. \w menampilkan path pada direktori home.
-4.	Karena login sebagai root, maka akan ditampilkan ~: pada setiap terminal. Untuk setiap terminal ketik pwd dan tekan Enter untuk melihat bahwa Anda sedang berada pada direktori /root.
+  	
+4.	Pada setiap terminal, ketik PS1 = ” \w:” diikuti Enter. \w menampilkan path pada direktori home.
+
+5.	Karena login sebagai root, maka akan ditampilkan ~: pada setiap terminal. Untuk setiap terminal ketik pwd dan tekan Enter untuk melihat bahwa Anda sedang berada pada direktori /root.
     ![App Screenshoot](assets/percobaan/6_3_4.png)
-5.	Buka terminal lagi (keempat), atur posisi sehingga keempat terminal terlihat
+  	
+6.	Buka terminal lagi (keempat), atur posisi sehingga keempat terminal terlihat
 pada screen.
-6. Pada terminal keempat, ketik top dan tekan Enter. Maka program   top akan muncul. Ketik i. Top akan menampilkan proses yang aktif. Ketik lmt. Top tidak lagi menampilkan informasi pada bagian atas dari screen. Pada percobaan ini, terminal ke empat sebagai jendela Top
+
+7. Pada terminal keempat, ketik top dan tekan Enter. Maka program   top akan muncul. Ketik i. Top akan menampilkan proses yang aktif. Ketik lmt. Top tidak lagi menampilkan informasi pada bagian atas dari screen. Pada percobaan ini, terminal ke empat sebagai jendela Top
 
     ![App Screenshoot](assets/percobaan/6_6_top.png)
 
@@ -137,7 +141,7 @@ pada screen.
 
     ![App Screenshoot](assets/percobaan/6_6_lmt.png)
 
-7. Pada terminal 1, bukalah program executable C++ dengan mengetik program yes dan tekan Enter
+8. Pada terminal 1, bukalah program executable C++ dengan mengetik program yes dan tekan Enter
 
    ![App Screenshoot](assets/percobaan/6_8.png)
 
@@ -146,13 +150,14 @@ pada screen.
     ![App Screenshoot](assets/percobaan/6_8.png)
 
 10.	Jendela Top akan menampilkan dua program yes sebagai proses yang berjalan. Nilai %CPU sama pada keduanya. Hal ini berarti kedua proses mengkonsumsi waktu proses yang sama dan berjalan sama cepat. PID dari kedua proses akan berbeda, misalnya 3148 dan 3149. Kemudian gunakan terminal 3 (yang tidak menjalankan primes maupun Jendela Top) dan ketik `renice 19 <PID terimnal 1>` (contoh : renice 19 3148) dan diikuti Enter. Hal ini berarti mengganti penjadwalan prioritas dari proses ke 19.
-     ![App Screenshoot](assets/percobaan/6_9_renice_19.png)
 
-11.	Tunggu beberapa saat sampai program top berubah dan terlihat pada jendela Top. Pada kolom STAT memperlihatkan N untuk proses 3148. Hal ini berarti bahwa penjadwalan prioritas untuk proses 3148 lebih besar (lebih lambat) dari 0. Proses 3149 berjalan lebih cepat.
+   	![App Screenshoot](assets/percobaan/6_9_renice_19.png)
+
+12.	Tunggu beberapa saat sampai program top berubah dan terlihat pada jendela Top. Pada kolom STAT memperlihatkan N untuk proses 3148. Hal ini berarti bahwa penjadwalan prioritas untuk proses 3148 lebih besar (lebih lambat) dari 0. Proses 3149 berjalan lebih cepat.
 
     ![App Screenshoot](assets/percobaan/6_10.png)
 
-12. Program top juga mempunyai fungsi yang sama dengan program renice.Pilih Jendela Top dan tekan r. Program top terdapat prompt PID to renice: tekan 3148 (ingat bahwa Anda harus mengganti 3148 dengan PID Anda sendiri) dan tekan Enter. Program top memberikan prompt Renice `PID 3148 to value: tekan -19` dan tekan Enter.
+13. Program top juga mempunyai fungsi yang sama dengan program renice.Pilih Jendela Top dan tekan r. Program top terdapat prompt PID to renice: tekan 3148 (ingat bahwa Anda harus mengganti 3148 dengan PID Anda sendiri) dan tekan Enter. Program top memberikan prompt Renice `PID 3148 to value: tekan -19` dan tekan Enter.
 
     ![App Screenshoot](assets/percobaan/6_11_r.png)
 
@@ -160,25 +165,25 @@ pada screen.
 
     ![App Screenshoot](assets/percobaan/6_11_value_19.png)
 
-13.	Tunggu beberapa saat sampai top berubah dan lihat nilai %CPU pada kedua proses. Sekarang proses 3148 lebih cepat dari proses 3149. Kolom status menunjukkan < pada proses 3148 yang menunjukkan penjadwalan prioritas lebih rendah (lebih cepat) dari nilai 0.
+14.	Tunggu beberapa saat sampai top berubah dan lihat nilai %CPU pada kedua proses. Sekarang proses 3148 lebih cepat dari proses 3149. Kolom status menunjukkan < pada proses 3148 yang menunjukkan penjadwalan prioritas lebih rendah (lebih cepat) dari nilai 0.
 
     ![App Screenshoot](assets/percobaan/6_12.png)
 
-14.	Pilih terminal 3 (yang sedang tidak menjalankan yes atau program top) dan ketik nice –n -10 yes dan tekan Enter. Tunggu beberapa saat agar program top berubah dan akan terlihat proses primes ketiga. Misalnya PID nya 4107. Opsi -10 berada pada kolom NI (penjadwalan prioritas).
+15.	Pilih terminal 3 (yang sedang tidak menjalankan yes atau program top) dan ketik nice –n -10 yes dan tekan Enter. Tunggu beberapa saat agar program top berubah dan akan terlihat proses primes ketiga. Misalnya PID nya 4107. Opsi -10 berada pada kolom NI (penjadwalan prioritas).
 
     ![App Screenshoot](assets/percobaan/6_13.png)
 
-15.	Jangan menggunakan mouse dan keyboard selama 10 detik. Program top menampilkan proses yang aktif selain program yes. Maka akan terlihat proses top terdaftar tetapi %CPU kecil (dibawah 1.0) dan konsisten. Juga terlihat proses berhubungan dengan dekstop grafis seperti X, panel dll.
+16.	Jangan menggunakan mouse dan keyboard selama 10 detik. Program top menampilkan proses yang aktif selain program yes. Maka akan terlihat proses top terdaftar tetapi %CPU kecil (dibawah 1.0) dan konsisten. Juga terlihat proses berhubungan dengan dekstop grafis seperti X, panel dll.
 
     ![App Screenshoot](assets/percobaan/6_13_14.png)
 
-16.	Pindahkan mouse sehingga kursor berubah pada screen dan lihat apa yangterjadi dengan tampilan top. Proses tambahan akan muncul dan nilai %CPU berubah sebagai bagian grafis yang bekerja. Satu alasan adalah bahwa proses 4107 berjalan pada penjadwalan prioritas tinggi. Pilih jendela Top, ketik r. PID to renice : muncul prompt. Ketik 4107 (ubahlah 4107 dengan PID Anda) dan tekan Enter. Renice PID 4107 to value: muncul prompt. Ketik 0 dan tekan Enter. Sekarang pindahkan mouse ke sekeliling screen. Lihat perubahannya.
+17.	Pindahkan mouse sehingga kursor berubah pada screen dan lihat apa yangterjadi dengan tampilan top. Proses tambahan akan muncul dan nilai %CPU berubah sebagai bagian grafis yang bekerja. Satu alasan adalah bahwa proses 4107 berjalan pada penjadwalan prioritas tinggi. Pilih jendela Top, ketik r. PID to renice : muncul prompt. Ketik 4107 (ubahlah 4107 dengan PID Anda) dan tekan Enter. Renice PID 4107 to value: muncul prompt. Ketik 0 dan tekan Enter. Sekarang pindahkan mouse ke sekeliling screen. Lihat perubahannya.
 
     ![App Screenshoot](assets/percobaan/6_15_0.png)
 
-17.	Tutup semua terminal window.
+18.	Tutup semua terminal window.
 
-18.	Logout dan login kembali sebagai user.
+19.	Logout dan login kembali sebagai user.
 
 ## Tugas Pendahuluan
 
@@ -189,7 +194,7 @@ pada screen.
     ![App Screenshoot](assets/latihan/1_a.png)
 
     Analisis
-    - Semua proses kecuali proses yang dijalankan oleh user root yaitu
+    -  Semua proses kecuali proses yang dijalankan oleh user root yaitu
         - `/sbin/agetty -o -p -..`
 
         - `bash`
@@ -243,9 +248,6 @@ pada screen.
 
     - `$ ps` digunakan untuk menampilkan daftar proses yang sedang berjalan di sistem
 
-
-    
-
     f.	Sebutkan PID yang paling besar dan kemudian buat urut-urutan proses sampai ke PPID = 1.
 
       - PID -> 2674 | CMD -> ps
@@ -253,8 +255,6 @@ pada screen.
       - PID -> 2670 | CMD -> bash
       - PID -> 2668 | CMD -> csh
       - PID -> 2659 | CMD -> bash
-
-    
 
 2.	Cobalah format tampilan ps dengan opsi berikut dan perhatikan hasil tampilannya :
 
@@ -300,8 +300,6 @@ pada screen.
     - `v` format virtual memory yang terdiri dari PID, TTY, TIME, EIP, TMOUT, ALARM, STAT, TTY, TIME, COMMAND
 
     - `X`	format register i386 yang menampilkan status CPU register terdiri atas PID, STACKP, ESP, EIP, TMOUT, ALARM, STAT, TTY, TIME, COMMAND
- 
-
 
 3.	Lakukan urutan pekerjaan berikut :
     
@@ -320,11 +318,11 @@ pada screen.
     <br> Analisis: <br>
     Langkah pertama adalah membuat file directory.txt lalu letakkan pada directory Download lalu gunakan perintah `$ find / type d > directory.txt` lalu untuk melihat isinya buka dengan perintah `$ nano directory.txt`. Untuk membelokkan pesan errornya gunakan perintah `$ find / type d 2> errors.txt` kemudian buka filenya dengan perintah `$ nano errors.txt` apabila semua file suda terisi maka pembelokan sudah berhasil.
     
-
     b.	Gunakan perintah sleep 5. 
     Apa yang terjadi dengan perintah ini ?
 
     ![App Screenshoot](assets/latihan/3_b.png)
+  	
     <br> Analisis: <br>
     `$ sleep 5` memberi jeda menampilkan bash baru selama 5 detik 
 
@@ -353,12 +351,14 @@ pada screen.
     f.	Jalankan sleep 15 pada background menggunakan & dan kemudian gunakan kill untuk menghentikan sementara proses. Gunakan bg untuk melanjutkan menjalankan proses.
 
     ![App Screenshoot](assets/latihan/3_f.png)
+  	
     <br> Analisis: <br>
     `$ sleep 15 &` berjalan pada background dengan jobs [1] PID 5398 dengan status running. Proses tersebut dapat dihentikan sementara dengan perintah `$ kill -STOP 5398`yang dapat dilihat status pemberhentian sementaranya melalui perintah `$ ps`. Proses sleep dijalankan kembali di background `$ bg` dengan menampilkan penambahakn jobs untuk proses sleep. Kemudian menggunakan perintah `$ job` untuk melihat status proses ` $ sleep 15 &`.
     
     g.	Jalankan sleep 60 pada background 5 kali dan terminasi semua pada dengan menggunakan perintah killall.
 
     ![App Screenshoot](assets/latihan/3_g.png)
+  	
     <br> Analisis: <br>
     `$ sleep 60` sebanyak 5 berjalan pada frontground dengan banyak PID. untuk melihat status proses dan nama prosesnya bisa melihat dengan perintah `$ ps` lalu gunakan perintah `$ killall sleep` untuk menghapus semua proses sleep.
 
@@ -375,12 +375,15 @@ pada screen.
     i.	Gunakan perintah ps –aeH untuk menampilkan hierarki proses. Carilah init proses. Apakah Anda bisa identifikasi sistem daemon yang penting ? Dapatkan Anda identifikasi shell dan subprose s ?
 
     ![App Screenshoot](assets/latihan/3_i.png)
+  	
     <br> Analisis: <br>
+    Init process adalah induk dari semua proses pada linux, ditandai dengan PID = 1 yaitu systemd. Sistem daemon yang penting disebut juga dengan init process dengan PID = 1. Selain itu, service deamon ditandai dengan huruf belakangnya d. Untuk shell, terdapat di terminal yang sedang aktif (pts/0) yaitu proses seperti bash dan ps.
 
     
     j.	Kombinasikan ps –fae dan grep, apa yang Anda lihat ?
 
     ![App Screenshoot](assets/latihan/3_j.png)
+  	
     <br> Analisis: <br>
     Saya menambahkan peintah `ssh`yang dimana `$ ps fae | grep ssh` akan menampilkan daftar proses yang sedang berjalan di sistem, termasuk proses-proses yang terkait dengan SSH, dengan menggunakan format pohon untuk menunjukkan hubungan hierarki antara proses-proses tersebut
 
@@ -390,6 +393,7 @@ pada screen.
     ![App Screenshoot](assets/latihan/3_k_login.png)
 
     ![App Screenshoot](assets/latihan/3_300.png)
+  	
     <br> Analisis: <br>
     Apabila menjalankan peintah `$ sleep 300 &` akan berjalan pada background dan meskipun user logout proses tersebut masih berjalan.
 
