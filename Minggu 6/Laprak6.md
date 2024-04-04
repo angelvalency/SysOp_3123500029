@@ -109,7 +109,7 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
     ` $ fg %2`   atau   `$ %2`
     <br>
     `$ bg %2`
-    ![App Screenshoot](assets/percobaan/5_5.png) 
+    
 
 6.	tekan fg dan tekan Enter, kemudian dilanjutkan dengan Ctrl -Z untuk menghentikan sementara.
 
