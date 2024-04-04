@@ -113,11 +113,10 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 
 6.	tekan fg dan tekan Enter, kemudian dilanjutkan dengan Ctrl -Z untuk menghentikan sementara.
 
-7.	Lihat job dengan perintah ps -fae dan tekan Enter. Kemudian hentikan proses dengan perintah kill. <br>
+7.	Lihat job dengan perintah ps -fae dan tekan Enter. Kemudian hentikan proses dengan perintah kill. 
     `$ ps -fae`
     ![App Screenshoot](assets/percobaan/5_7_ps-fae.png) 
-    <br>
-    <br>
+   
     `$ kill -9 <NomorPID>`
 
     ![App Screenshoot](assets/percobaan/5_7_ps_kill.png) 
