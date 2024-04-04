@@ -21,11 +21,8 @@
 - [Percobaan](#percobaan)
 - [Tugas Pendahuluan](#Tugas_pendahuluan)
 - [Kesimpulan](#kesimpulan)
-
+  
 # Pendahuluan
-## Dasar Teori
-# Pendahuluan
-
 ## Dasar Teori
 ### 1.  Konsep Proses Pada Sistem Operasi Linux
 Proses adalah program yang sedang dieksekusi. Setiap kali menggunakan utilitas sistem atau program aplikasi dari shell, satu atau lebih proses ”child” akan dibuat oleh shell sesuai perintah yang diberikan. Setiap kali instruksi dibe rikan pada Linux shell, maka kernel akan menciptakan sebuah proses-id. Proses ini disebut juga dengan terminology Unix sebagai sebuah Job.   Proses Id (PID) dimulai dari 0, yaitu proses INIT, kemudian diikuti oleh proses berikutnya (terdaftar pada /etc/inittab).<br>
