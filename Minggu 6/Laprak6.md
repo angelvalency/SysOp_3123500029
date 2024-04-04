@@ -21,7 +21,6 @@
 - [Percobaan](#percobaan)
 - [Tugas Pendahuluan](#Tugas_pendahuluan)
 - [Kesimpulan](#kesimpulan)
-- [Daftar Pustaka](#daftar-pustaka)
 
 # Pendahuluan
 ## Dasar Teori
