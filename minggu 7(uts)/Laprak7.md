@@ -376,7 +376,7 @@ c.  Deskripsikan dan visualisasikan pohon proses hasil eksekusi dari kode progra
 
     - output
 
-        ![App Screenshoot](assets/Output_matriks.png)
+        ![App Screenshoot](assets/output_matriks.png)
 
     - Analisis
 
