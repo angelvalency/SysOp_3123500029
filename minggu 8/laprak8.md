@@ -74,7 +74,7 @@ Deklarasi Variabel
 
 a. variabel 1
 
-![App Screenshoot](assets\Variabels\makefilevariables1.png)
+![App Screenshoot](assets/Variabels/makefilevariables1.png)
 
 Source code
 ![App Screenshoot](assets\Variabels\age25_variables1.png)
