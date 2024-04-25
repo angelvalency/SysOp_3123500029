@@ -310,9 +310,9 @@ Menampilkan output hello world dengan format file `.sh`
 
 ![App Screenshoot](assets/Conditional-Expression/make_conditional.png)
 
-![App Screenshoot](assets/COnditional-Expression/isi_conditional.png)
+![App Screenshoot](assets/Conditional-Expression/isi_conditional.png)
 
-![App Screenshoot](assets/Conditional-expression/output_condition.png)
+![App Screenshoot](assets/Conditional-Expression/output_condition.png)
 
 Analisis: 
 <br>
@@ -876,7 +876,7 @@ a.
 
 ![App Screenshoot](assets/Ternary-Operator/make_ternary1.png)
 
-![App Screenshoot](assets/ternary-Operator/output_ternary1.png)
+![App Screenshoot](assets/Ternary-Operator/output_ternary1.png)
 
 Analisis: 
 <br>
