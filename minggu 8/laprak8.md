@@ -83,6 +83,7 @@ Analisis:
 b. Variabel 2
 
 ![App Screenshoot](assets/Variabels/makefilevariables2.png)
+![App Screenshoot](assets/Variabels/makefilevariables2.png)
 
 ![App Screenshoot](assets/Variabels/age25_35.png)
 
@@ -95,9 +96,12 @@ mengubahnya ke nilai baru menggunakan operator penugasan =, tidak bisa dilakukan
 c. 
 
 ![App Screenshoot](assets/Variabels/makefilevariables3.png)
+![App Screenshoot](assets/Variabels/makefilevariables3.png)
 
 ![App Screenshoot](assets/Variabels/age25variables3_empty.png)
+![App Screenshoot](assets/Variabels/age25variables3_empty.png)
 
+![App Screenshoot](assets/Variabels/outputvariables3.png)
 ![App Screenshoot](assets/Variabels/outputvariables3.png)
 
 Analisis: 
