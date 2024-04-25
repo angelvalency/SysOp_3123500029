@@ -368,11 +368,76 @@ c.  Deskripsikan dan visualisasikan pohon proses hasil eksekusi dari kode progra
 
     - Source Code
 
-        ![App Screenshoot](assets/matriks_1.png)
-
-        ![App Screenshoot](assets/matriks_2.png)
-
-        ![App Screenshoot](assets/matriks_3.png)
+                  #include <stdio.h>
+                  #include <stdlib.h>
+                  #include <unistd.h>
+                  #include <sys/wait.h>
+                  
+                  #define SIZE 4
+                  
+                  // Fungsi untuk mengalikan dua matriks 4x4
+                  void multiplyMatrix(int mat1[SIZE][SIZE], int mat2[SIZE][SIZE], int result[SIZE][SIZE]) {
+                      for (int i = 0; i < SIZE; i++) {
+                          for (int j = 0; j < SIZE; j++) {
+                              result[i][j] = 0;
+                              for (int k = 0; k < SIZE; k++) {
+                                  result[i][j] += mat1[i][k] * mat2[k][j];
+                              }
+                          }
+                      }
+                  }
+                  
+                  int main() {
+                      int mat1[SIZE][SIZE] = {
+                          {1, 2, 3, 4},
+                          {5, 6, 7, 8},
+                          {9, 10, 11, 12},
+                          {13, 14, 15, 16}
+                      };
+                  
+                      int mat2[SIZE][SIZE] = {
+                          {17, 18, 19, 20},
+                          {21, 22, 23, 24},
+                          {25, 26, 27, 28},
+                          {29, 30, 31, 32}
+                      };
+                  
+                      int result[SIZE][SIZE];
+                  
+                      // Proses parent akan membuat 4 child process
+                      for (int i = 0; i < SIZE; i++) {
+                          pid_t pid = fork();
+                          if (pid < 0) {
+                              perror("Fork failed");
+                              exit(EXIT_FAILURE);
+                          } else if (pid == 0) { // Child process
+                              for (int j = 0; j < SIZE; j++) {
+                                  result[i][j] = 0;
+                                  for (int k = 0; k < SIZE; k++) {
+                                      result[i][j] += mat1[i][k] * mat2[k][j];
+                                  }
+                              }
+                              exit(EXIT_SUCCESS);
+                          }
+                      }
+                  
+                      // Parent process menunggu semua child process selesai
+                      for (int i = 0; i < SIZE; i++) {
+                          wait(NULL);
+                      }
+                  
+                      // Menampilkan hasil perkalian matriks
+                      printf("Result Matrix:\n");
+                      for (int i = 0; i < SIZE; i++) {
+                          for (int j = 0; j < SIZE; j++) {
+                              printf("%d ", result[i][j]);
+                          }
+                          printf("\n");
+                      }
+                  
+                      return 0;
+                  }
+                  
 
     - output
 
