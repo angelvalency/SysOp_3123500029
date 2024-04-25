@@ -36,6 +36,8 @@ Ada dua jenis mode bash:
 
 Shell, alias Bourne Shell, adalah penerjemah baris perintah untuk OS Unix dan Linux. Bash, alias Bourne Again Shell, adalah versi yang disempurnakan
 
+
+
 ### C. Bahasa Programming Bash
 
 Bash menjalankan perintah dari terminal atau file. Ini adalah bahasa pemrograman yang beroperasi pada sistem operasi kernel Unix/Linux, berisi semua fitur untuk menulis kode lengkap.
@@ -45,7 +47,7 @@ Bash adalah tipe shell khusus yang menerima masukan dari perintah, menjalankan k
 
 ### D. Jenis Shell 
 
-|              Shell Type   |  Nama     | Deskripsi    |
+|              Shell Type   |  Alias                   |     First Line             |
 |---------------------------|--------------------------|----------------------------|
 | sh                        | SIGHUP                  | Hangup, sinyal dikirim bila proses terputus, misalnya melalui putusnya hubungan modern |
 | 2                         | SIGINT                  |    Sinyal interrupt, melalui ^C   |
@@ -59,8 +61,15 @@ Bash adalah tipe shell khusus yang menerima masukan dari perintah, menjalankan k
 # Tugas Pendahuluan
 ## 1. Variables
 
-a. 
+Deklarasi Variabel
 
+        - variableName = VariableValue
+
+        - VariableValue adalah nilai yang disimpan dalam variabel
+
+a. variabel 1
+
+![App Screenshoot](assets/Variabels/makefilevariables1.png)
 ![App Screenshoot](assets/Variabels/makefilevariables1.png)
 
 ![App Screenshoot](assets/Variabels/age25_variables1.png)
@@ -68,10 +77,10 @@ a.
 ![App Screenshoot](assets/Variabels/outputvariables1.png)
 
 Analisis: 
-<br>
+<br> Kode di atas mendeklarasikan variabel yang diberi nama AGEdengan nilai 25 dan kemudian digunakan echo $AGE untuk menampilkan nilai variabel AGE
 
 
-b. 
+b. Variabel 2
 
 ![App Screenshoot](assets/Variabels/makefilevariables2.png)
 
@@ -81,7 +90,7 @@ b.
 
 Analisis: 
 <br>
-
+mengubahnya ke nilai baru menggunakan operator penugasan =, tidak bisa dilakukan karena echo mencegah variabel diperbarui, secara efektif sehingga valuenya menjadi constant
 
 c. 
 
@@ -93,6 +102,7 @@ c.
 
 Analisis: 
 <br>
+Kata unset  membantu menghilangkan nilai dari variabel yang ditentukan. Variabel tetap dapat diakses tetapi mencetak nilai kosong
 
 d. 
 
@@ -105,7 +115,7 @@ d.
 
 Analisis: 
 <br>
-
+Variabel default yang dideklarasikan dalam file skrip disebut variabel global. 
 
 ## 2. Loop File
 
@@ -121,11 +131,19 @@ Analisis:
 
 Analisis: 
 <br>
+script dari loop1.sh akan membaca setiap baris dari filename.txt
 
 
 ## 3. Comments
 
-a. 
+**Comments** adalah pernyataan kode yang berisi teks yang dapat dibaca pengguna yang dilewati shell selama eksekusi. Terdapat 2 jenis comments, yaitu:
+
+- single comment 
+- multiple comment
+
+
+
+a. Single Comment
 
 ![App Screenshoot](assets/Comments/makecomments1.png)
 
@@ -135,8 +153,9 @@ a.
 
 Analisis: 
 <br>
+Komentar satu baris dalam skrip shell dilambangkan dengan #simbol di awal setiap baris
 
-b. 
+b. Multiple Comment
 
 ![App Screenshoot](assets/Comments/makecomment2.png)
 
@@ -146,10 +165,57 @@ b.
 
 Analisis: 
 <br>
+Cara pertama untuk membuat komentar multi-baris adalah dengan memanfaatkan komentar satu baris yang setiap barisnya dimulai dengan simbol komentar satu baris
+
+        # Line1 comments
+        # Line1 comments
+        # Line1 comments
+
+atau dengan membuat ( :) dan ( ') sebagai apitan baris.
+        
+        : '
+          multiline comments example1
+          multiline comments example2
+          multiline comments example3
+        '   
 
 ## 4. Array
 
-a. 
+**Array** memudahkan kita untuk menampilkan banyak kaarakter dengan iterasi. tanpa array kita harus melakukan echo disetiap elemen. Ada 2 jenis array:
+
+  - index array     : elemen array disimpan dengan indeks mulai dari nol
+  - associate array : array disimpan dengan pasangan nilai kunci
+
+Deklarasi array dapat dilakukan dengan beberapa cara seperti:
+
+1. sebuah array dideklarasikan dengan kata kunci declaredengan opsi -aatauA
+
+        declares -a array; # indexed array
+        declare -A array; # associative array 
+
+2. penyimpanan dengan indeks=0, ditambah 1 
+
+        declare -a array
+        array=(one two three)
+
+3. array assosiatif, dibuat dengan declare dan -A opsi
+
+        declare -A array
+        array=(one two three)
+
+4. penyimpanan dengan indeks=0, ditambah 1 sebagai
+
+        array[key1]=one
+        array[key2]=two
+        array[key3]=three
+
+        array=(1,2,3,4)
+      
+5. Menetapkan nilai tanpa deklarasi array
+
+        arrayvariable[index]=value
+
+a. Perulangan for array 
 
 ![App Screenshoot](assets/Array/makearray1.png)
 
@@ -159,8 +225,9 @@ a.
 
 Analisis: 
 <br>
+setiap iterasi akan di loop dari setiap index
 
-b. 
+b. Array String dan for
 
 ![App Screenshoot](assets/Array/makearray2.png)
 
@@ -170,6 +237,7 @@ b.
 
 Analisis: 
 <br>
+setiap iterasi string dalam array akan diloop
 
 c. 
 
@@ -181,8 +249,9 @@ c.
 
 Analisis: 
 <br>
+Dalam elemen Array, indeks elemen Pertama adalah nol, dan array[0] mengembalikan elemen pertama
 
-d. 
+d. Elemen terakhir dari sebuah array
 
 ![App Screenshoot](assets/Array/makearray4.png)
 
@@ -192,6 +261,7 @@ d.
 
 Analisis: 
 <br>
+Menggunakan indeks=-1 untuk mendapatkan elemen array terakhir.
 
 
 e. 
@@ -204,8 +274,9 @@ e.
 
 Analisis: 
 <br>
+For loop digunakan untuk mengulangi elemen dengan menambahkan do apabila kondisi true akan terus menampilkan i.
 
-f. 
+f. For loop elemen array 2
 
 ![App Screenshoot](assets/Array/makearray6.png)
 
@@ -215,6 +286,8 @@ f.
 
 Analisis: 
 <br>
+For loop digunakan untuk mengulangi elemen dengan menambahkan do apabila kondisi true akan terus menampilkan i. Dimana for mengakses nilai i didalam array number.
+
 
 
 ## 5. Expansion
@@ -227,6 +300,7 @@ Analisis:
 
 Analisis: 
 <br>
+Menampilkan output hello world dengan format file `.sh` 
 
 ## 6. Conditional Expression
 
@@ -249,10 +323,51 @@ Analisis:
 
 Analisis: 
 <br>
+Terdapat variabel global jhon1. variabel tersebut akan disesuaikan dengan case apakah jhon, apakah other name dan jika bukan keduanya akan menampilkan default name. Sehingga program menampilkan default name.
 
 ## 8. Special Characters
 
-a. 
+**Ruang kosong(" ")** :
+  -  memberi tahu penerjemah bash untuk memisahkan perintah dan konten
+
+      
+          echo ("Hello world"):
+
+          echo adalah perintah yang diikuti spasi, dan strign berisi spasi untuk kata
+
+**Ekspansi($)** 
+      
+  - Simbol tanda dolar digunakan untuk berbagai jenis ekspansi parameter ekspansi
+
+         ( $variable, ${variable}) Substitusi ( $(expression)) ekspresi artematis ( $((expression)))
+
+**Yellow sand (&)**
+  - Menambahkan & ke akhir perintah dapat menjalankan perintah di background.
+
+        command $
+
+        contohnya: 
+        redis-server &
+
+**Pipa ( |)** 
+  - digunakan untuk meneruskan keluaran dari satu perintah ke masukan ke perintah lain dari kiri ke kanan. Hal ini memungkinkan untuk membentuk rantai perintah
+  - Syntax-nya adalah
+      
+        command1 | command2
+
+        Contoh : echo "hello" | wc mengembalikan jumlah karakter.
+
+**Titik koma(;)**
+
+  - digunakan untuk memisahkan beberapa perintah menggunakan ;satu baris. ;adalah pemisah perintah untuk mendefinisikan beberapa perintah dalam satu baris Syntax:
+  
+          command1; command2;command3
+
+          Contoh:cd /app/;ls;
+
+**Kutipan tunggal**
+
+- Tanda kutip tunggal `( ')` digunakan untuk mendefinisikan suatu string tanpa arti khusus. Artinya semua variabel dan ekspansi tidak diinterpretasikan dan mencetak string literal yang sama
 
 ![App Screenshoot](assets/Special-Characters/make_caracter1.png)
 
@@ -262,8 +377,16 @@ a.
 
 Analisis: 
 <br>
+Jika menggunakan tanda kutip tunggal, maka variabel nama tidak diperluas dan dicetak sebagai string literal.
 
-b. 
+
+**Kutipan ganda**
+
+- Tanda kutip ganda `( ')` digunakan untuk mendefinisikan string literal dengan arti khusus.
+
+- jika string berisi variabel dan sintaks perluasan, Ini diinterprestasikan dan diperluas, dengan nilai yang dievaluasi saat runtime.
+
+- jika string tidak ingin memperluas variabelnya, maka Anda dapat keluar \sebelum `$simbol dolar`
 
 ![App Screenshoot](assets/Special-Characters/make_caracter2.png)
 
@@ -273,6 +396,36 @@ b.
 
 Analisis: 
 <br>
+echo pertama ariabel nama diperluas dan diinterpretasikan sebagai string dan dicetak. echo kedua karakter escape dengan awalan `$ \` , dicetak sebagai string literal
+
+
+Karakter backslash `( \)`
+
+-  Karakter garis miring terbalik digunakan untuk keluar dari karakter dalam string. ini digunakan dalam string yang dikutip ganda.
+
+          echo escape $$ example # escape 3225 example
+          echo escape \$$ example # escape $$ example
+  
+
+ada contoh pertama, echo berisi `$$`, yang menampilkan id proses. Pada contoh kedua, echo berisi `\$$`, yang ditampilkan `$$` sebagai string literal. karakter escape diawali.
+
+**Komentar ( #)**
+
+- Simbol komentar digunakan untuk mengomentari sebaris kode. Baris komentar selalu dimulai dengan `#`.
+
+          # Line comment
+          echo "comment example" # Inline comment
+
+
+**Tanda tanya( ?)**
+
+- tanda tanya mempunyai arti yang berbeda dalam konteksnya.
+    - Dalam konteks ekspresi reguler
+    - Di dalam
+
+periksa status keluar dari eksekusi perintah terakhir.
+
+**Dot (.)**
 
 ## 9. If Elif Else
 
@@ -284,10 +437,30 @@ Analisis:
 
 Analisis: 
 <br>
+terdapat variabel global dengan age=25, apabila -gt 60 maka akan menampilkan senior citizen, apabila age -lt maka akan menampilkan child, apabila tidak merupakan keduanya maka akan menampilkan adult.
+
 
 ## 10. Loops
 
-a. 
+Skrip Bash menyediakan berbagai jenis loop
+
+- for loop
+- for index loop
+- while loop
+- until loop
+
+a.  for loop
+
+![App Screenshoot](assets/Loops/makeloops1.png)
+
+![App Screenshoot](assets/Loops/isi_loops1.png)
+
+![App Screenshoot](assets/Loops/outputloops_1.png)
+
+Analisis: 
+<br> menampilkan index elemen dari setiap iterasi loop
+
+b. for index loop
 
 ![App Screenshoot](assets/Loops/makeloops1.png)
 
@@ -298,18 +471,7 @@ a.
 Analisis: 
 <br>
 
-a. 
-
-![App Screenshoot](assets/Loops/makeloops1.png)
-
-![App Screenshoot](assets/Loops/isi_loops1.png)
-
-![App Screenshoot](assets/Loops/outputloops_1.png)
-
-Analisis: 
-<br>
-
-b. 
+c. while loop
 
 ![App Screenshoot](assets/Loops/make_loops2.png)
 
@@ -318,7 +480,7 @@ b.
 ![App Screenshoot](assets/Loops/output_loops2.png)
 
 Analisis: 
-<br>
+<br> mencetak angka dari 0 hingga 5 dengan nilai index iterasinya bertambah 1
 
 c. 
 
@@ -340,7 +502,7 @@ c.
 
 
 Analisis: 
-<br>
+<br> while loop mengeksekusi kode selama kondisi yang ditentukan ( [[ i -lt 100 ]]) benar, jika kondisinya salah loop akan berhenti.
 
 d. 
 ![App Screenshoot](assets/Loops/make_loops4.png)
@@ -355,11 +517,15 @@ d.
 
 
 Analisis: 
-<br>
+<br> until digunakan untuk mengeksekusi kode berulang kali hingga kondisi tertentu menjadi true, di mana loop keluar. Kode dijalankan selama [[ i -eq 100 ]]bernilai salah. Ini menambah nilai sebesar 1 dan mencetak nilainya
 
 ## 11. Append String
 
-a. 
+Ekspresi adalah istilah yang digunakan dalam matematika untuk menunjukkan suatu operasi. Di bash, Experssions dibuat menggunakan `(())` tanda kurung dengan operan dan operator sebagai argumen. `((a ))` adalah ekspresi bash.
+
+      ((expression))
+
+a. Ekspresi jumlah
 
 ![App Screenshoot](assets/Append-String/make_appendstring.png)
 
@@ -369,8 +535,9 @@ a.
 
 Analisis: 
 <br>
+program menampilkan hasil penjumlahan dari 12 dan 11
 
-b. 
+b. Operator
 
 ![App Screenshoot](assets/Append-String/make_appendstring2.png)
 
@@ -380,8 +547,14 @@ b.
 
 Analisis: 
 <br>
+terdapat 2 variabel a dan b senilai 10 dan 2, apabila nilai a kurang dari b makan akan ditampilkan a is greater than b
 
-c. 
+c. Expansion
+
+Ekspansi Bash Athematic
+`Expansion` sama dengan ekspresi, Ini menghitung nilai ekspresi dan hasilnya diganti dengan nilai misalnya rata rata nilai
+
+      $((expression))
 
 ![App Screenshoot](assets/Append-String/make_appendstring3.png)
 
@@ -391,10 +564,18 @@ c.
 
 Analisis: 
 <br>
+Terdapat 2 variabel first dan second yang dihitung average atau rata-ratanya dengan perintah `$(((first+second)/2))`
+
 
 ## 12. Functions
+Definisi fungsi berisi beberapa baris kode yang akan dieksekusi.
 
-a. 
+Fungsi berisi nama fungsi yang diapit `{}`, dengan cara :
+        
+      function function_name {
+      # Commands or valid bash code
+      # multiple lines
+      }
 
 ![App Screenshoot](assets/Functions/makefunction.png)
 
@@ -404,8 +585,28 @@ a.
 
 Analisis: 
 <br>
+function hello berisi hello world yang fungsinya dipanggil  diluar function     
+      
+Fungsi juga dapat dideklarasi dengan divawah ini 
 
-b. 
+      function function_name() {
+        # Commands or valid bash code
+        # multiple lines
+      }
+
+Deklarasi parameter
+
+    function_name "parameter1" "parameter2" "parameter3".. "parametern"
+
+yang dipanggil melalui function dibawah ini
+
+        function function_name() {
+    # $1 represents first paramter
+    # $2 represents second paramter
+
+    # $n represents nth paramter
+    }
+
 
 ![App Screenshoot](assets/Functions/make_function2.png)
 
@@ -415,7 +616,7 @@ b.
 
 Analisis: 
 <br>
-
+menampilkan nama dengan memanginggil function hello
 
 ## 13. Operators
 
