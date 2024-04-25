@@ -77,10 +77,10 @@ a. variabel 1
 ![App Screenshoot](assets/Variabels/makefilevariables1.png)
 
 Source code
-![App Screenshoot](assets\Variabels\age25_variables1.png)
+![App Screenshoot](assets/Variabels/age25_variables1.png)
 
 Output
-![App Screenshoot](assets\Variabels\outputvariables1.png)
+![App Screenshoot](assets/Variabels/outputvariables1.png)
 
 Analisis: 
 <br> Kode di atas mendeklarasikan variabel yang diberi nama AGEdengan nilai 25 dan kemudian digunakan echo $AGE untuk menampilkan nilai variabel AGE
@@ -88,13 +88,13 @@ Analisis:
 
 b. Variabel 2
 
-![App Screenshoot](assets\Variabels\makefilevariables2.png)
+![App Screenshoot](assets/Variabels/makefilevariables2.png)
 
 Source Code
-![App Screenshoot](assets\Variabels\age25_35.png)
+![App Screenshoot](assets/Variabels/age25_35.png)
 
 Output
-![App Screenshoot](assets\Variabels\outputvariables2.png)
+![App Screenshoot](assets/Variabels/outputvariables2.png)
 
 Analisis: 
 <br>
@@ -102,11 +102,11 @@ mengubahnya ke nilai baru menggunakan operator penugasan =, tidak bisa dilakukan
 
 c. 
 
-![App Screenshoot](assets\Variabels\makefilevariables3.png)
+![App Screenshoot](assets/Variabels/makefilevariables3.png)
 
-![App Screenshoot](assets\Variabels\age25variables3_empty.png)
+![App Screenshoot](assets/Variabels/age25variables3_empty.png)
 
-![App Screenshoot](assets\Variabels\outputvariables3.png)
+![App Screenshoot](assets/Variabels/outputvariables3.png)
 
 Analisis: 
 <br>
