@@ -381,8 +381,7 @@ c.  Deskripsikan dan visualisasikan pohon proses hasil eksekusi dari kode progra
         ![App Screenshoot](assets/output_matriks.png)
 
     - Analisis
-
-        Program diatas mengisinisialisasi elemen matriks 4x4 didalam function fillMatriks() dengan array pada predefinedMatrix. Kemudian fungsi tersebut akan dipanggil untuk menampilkan matriks awal menggunakan funcion printMatrix (). fork() akan melakukan loop untuk membuat child melalui mengalikan angka 2 disetiap iterasi. Setelah itu, proses child akan exit (0) dan proses parent akan menunggu seluruh proses pada child setelah loop berkondisi false (wait (&status)). Jika semua proses selesai, elemen matriks akan ditampilkan.
+          Program diatas membagi proses perkalian baris dan kolom menjadi 4 proses child, dimana data hasilnya akan disimpan didalam memori yang nantinya akan dipangggil           pada proses parents. 
 
 # Daftar Pustaka
 
