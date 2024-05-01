@@ -73,6 +73,13 @@
 
 <p>Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan FLOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
 
+# KESIMPULAN
+IOPS (Input/Output Operations Per Second) dan FLOPS (Floating Point Operations Per Second) menunjukkan bahwa:
+
+- IOPS memiliki throughput lebih tinggi: IOPS mampu melakukan lebih banyak operasi masukan/keluaran per detik daripada FLOPS.
+- Perbedaan antara total throughput dan throughput single core: Perbedaan ini mencerminkan efisiensi CPU dalam mengalokasikan sumber daya antara inti tunggal dan total throughput. Semakin kecil perbedaannya, semakin baik CPU dapat mendistribusikan beban kerja di antara inti-inti yang tersedia.
+- Implikasi kinerja: Meskipun IOPS memiliki throughput lebih tinggi, penting untuk mempertimbangkan jenis operasi yang dilakukan oleh aplikasi atau beban kerja. FLOPS lebih penting jika aplikasi bergantung pada operasi floating point, sementara IOPS menjadi lebih relevan untuk operasi masukan/keluaran
+
 **REFERENSI** 
 
 [MICROSOFT IOPS](https://learn.microsoft.com/id-id/azure/virtual-machines/premium-storage-performance)
