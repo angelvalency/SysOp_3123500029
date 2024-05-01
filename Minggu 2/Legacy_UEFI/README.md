@@ -39,6 +39,11 @@ Kedua jenis BIOS ini adalah tabel partisi yang digunakan untuk menjalankan peran
 
 # Perbedaan Legacy dan UEFI
 
+- Flowchart Boot
+  
+![image](https://github.com/angelvalency/sysop_3123500029/assets/149746443/9860874c-c718-4b84-93dc-31e2c473c580)
+
+
 **Firmware**
 <br>
 Untuk lebih memahami perbedaan antara UEFI dan BIOS, berikut adalah tabel **perbandingan untuk kedua jenis firmware (perangkat lunak yang digunakan untuk menghubungkan sistem operasi dengan bagian hardware dari sebuah komputer)**.
