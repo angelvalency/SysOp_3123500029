@@ -78,10 +78,10 @@ a. variabel 1
 ![App Screenshoot](assets/Variabels/makefilevariables1.png)
 
 Source code
-![App Screenshoot](assets\Variabels\age25_variables1.png)
+![App Screenshoot](assets/Variabels/age25_variables1.png)
 
 Output
-![App Screenshoot](assets\Variabels\outputvariables1.png)
+![App Screenshoot](assets/Variabels/outputvariables1.png)
 
 Analisis: 
 <br> Kode di atas mendeklarasikan variabel yang diberi nama AGEdengan nilai 25 dan kemudian digunakan echo $AGE untuk menampilkan nilai variabel AGE
@@ -89,13 +89,13 @@ Analisis:
 
 b. Variabel 2
 
-![App Screenshoot](assets\Variabels\makefilevariables2.png)
+![App Screenshoot](assets/Variabels/makefilevariables2.png)
 
 Source Code
-![App Screenshoot](assets\Variabels\age25_35.png)
+![App Screenshoot](assets/Variabels/age25_35.png)
 
 Output
-![App Screenshoot](assets\Variabels\outputvariables2.png)
+![App Screenshoot](assets/Variabels/outputvariables2.png)
 
 Analisis: 
 <br>
@@ -103,11 +103,11 @@ mengubahnya ke nilai baru menggunakan operator penugasan =, tidak bisa dilakukan
 
 c. 
 
-![App Screenshoot](assets\Variabels\makefilevariables3.png)
+![App Screenshoot](assets/Variabels/makefilevariables3.png)
 
-![App Screenshoot](assets\Variabels\age25variables3_empty.png)
+![App Screenshoot](assets/Variabels/age25variables3_empty.png)
 
-![App Screenshoot](assets\Variabels\outputvariables3.png)
+![App Screenshoot](assets/Variabels/outputvariables3.png)
 
 Analisis: 
 <br>
@@ -115,13 +115,13 @@ Kata unset  membantu menghilangkan nilai dari variabel yang ditentukan. Variabel
 
 d. 
 
-![App Screenshoot](assets\Variabels\makefilevariables4.png)
+![App Screenshoot](assets/Variabels/makefilevariables4.png)
 
 Source code
-![App Screenshoot](assets\Variabels\setage_variables4.png)
+![App Screenshoot](assets/Variabels/setage_variables4.png)
 
 Output
-![App Screenshoot](assets\Variabels\outputvariables4.png)
+![App Screenshoot](assets/Variabels/outputvariables4.png)
 
 Analisis: 
 <br>
@@ -131,18 +131,18 @@ Variabel default yang dideklarasikan dalam file skrip disebut variabel global.
 
 a. menggunakan perulangan while
 
-![App Screenshoot](assets\Loop\makefilename.png)
+![App Screenshoot](assets/Loop/makefilename.png)
 
 source code filename.txt
-![App Screenshoot](assets\Loop\isi_filenametxt.png)
+![App Screenshoot](assets/Loop/isi_filenametxt.png)
 
-![App Screenshoot](assets\Loop\makeloop1.png)
+![App Screenshoot](assets/Loop/makeloop1.png)
 
 akses file name.txt untuk di loop
-![App Screenshoot](assets\Loop\isi_loop1.png)
+![App Screenshoot](assets/Loop/isi_loop1.png)
 
 output
-![App Screenshoot](assets\Loop\outputloop1.png)
+![App Screenshoot](assets/Loop/outputloop1.png)
 
 Analisis: 
 <br>
@@ -160,11 +160,11 @@ script dari loop1.sh akan membaca setiap baris dari filename.txt
 
 a. Single Comment
 
-![App Screenshoot](assets\Comments\makecomments1.png)
+![App Screenshoot](assets/Comments/makecomments1.png)
 
-![App Screenshoot](assets\Comments\isi_comments1.png)
+![App Screenshoot](assets/Comments/isi_comments1.png)
 
-![App Screenshoot](assets\Comments\outputcomments1.png)
+![App Screenshoot](assets/Comments/outputcomments1.png)
 
 Analisis: 
 <br>
@@ -172,11 +172,11 @@ Komentar satu baris dalam skrip shell dilambangkan dengan #simbol di awal setiap
 
 b. Multiple Comment
 
-![App Screenshoot](assets\Comments\makecomment2.png)
+![App Screenshoot](assets/Comments/makecomment2.png)
 
-![App Screenshoot](assets\Comments\isi_comment2.png)
+![App Screenshoot](assets/Comments/isi_comment2.png)
 
-![App Screenshoot](assets\Comments\output_comment2.png)
+![App Screenshoot](assets/Comments/output_comment2.png)
 
 Analisis: 
 <br>
@@ -232,13 +232,13 @@ Deklarasi array dapat dilakukan dengan beberapa cara seperti:
 
 a. Perulangan for array 
 
-![App Screenshoot](assets\Array\makearray1.png)
+![App Screenshoot](assets/Array/makearray1.png)
 
 source code
-![App Screenshoot](assets\Array\isi_array1.png)
+![App Screenshoot](assets/Array/isi_array1.png)
 
 output
-![App Screenshoot](assets\Array\output_array1.png)
+![App Screenshoot](assets/Array/output_array1.png)
 
 Analisis: 
 <br>
@@ -246,13 +246,13 @@ setiap iterasi akan di loop dari setiap index
 
 b. Array String dan for
 
-![App Screenshoot](assets\Array\makearray2.png)
+![App Screenshoot](assets/Array/makearray2.png)
 
 source code
-![App Screenshoot](assets\Array\isiarray2.png)
+![App Screenshoot](assets/Array/isiarray2.png)
 
 output
-![App Screenshoot](assets\Array\output_array2.png)
+![App Screenshoot](assets/Array/output_array2.png)
 
 Analisis: 
 <br>
@@ -261,13 +261,13 @@ setiap iterasi string dalam array akan diloop
 
 c. Akses elemen pertama array
 
-![App Screenshoot](assets\Array\makearray3.png)
+![App Screenshoot](assets/Array/makearray3.png)
 
 source code
-![App Screenshoot](assets\Array\isi_array3.png)
+![App Screenshoot](assets/Array/isi_array3.png)
 
 output
-![App Screenshoot](assets\Array\output_array3.png)
+![App Screenshoot](assets/Array/output_array3.png)
 
 Analisis: 
 <br>
@@ -275,13 +275,13 @@ Dalam elemen Array, indeks elemen Pertama adalah nol, dan array[0] mengembalikan
 
 d. Elemen terakhir dari sebuah array
 
-![App Screenshoot](assets\Array\makearray4.png)
+![App Screenshoot](assets/Array/makearray4.png)
 
 source code
-![App Screenshoot](assets\Array\isi_array4.png)
+![App Screenshoot](assets/Array/isi_array4.png)
 
 output
-![App Screenshoot](assets\Array\output_array4.png)
+![App Screenshoot](assets/Array/output_array4.png)
 
 Analisis: 
 <br>
@@ -289,13 +289,13 @@ Menggunakan indeks=-1 untuk mendapatkan elemen array terakhir.
 
 e.  For loop elemen array 1
 
-![App Screenshoot](assets\Array\makearray5.png)
+![App Screenshoot](assets/Array/makearray5.png)
 
 source code
-![App Screenshoot](assets\Array\isi_array5.png)
+![App Screenshoot](assets/Array/isi_array5.png)
 
 output
-![App Screenshoot](assets\Array\output_array5.png)
+![App Screenshoot](assets/Array/output_array5.png)
 
 Analisis: 
 <br>
@@ -303,13 +303,13 @@ For loop digunakan untuk mengulangi elemen dengan menambahkan do apabila kondisi
 
 f. For loop elemen array 2
 
-![App Screenshoot](assets\Array\makearray6.png)
+![App Screenshoot](assets/Array/makearray6.png)
 
 Source code
-![App Screenshoot](assets\Array\isi_array6.png)
+![App Screenshoot](assets/Array/isi_array6.png)
 
 output
-![App Screenshoot](assets\Array\output_array6.png)
+![App Screenshoot](assets/Array/output_array6.png)
 
 Analisis: 
 <br>
@@ -332,13 +332,13 @@ Cara menulis skrip shell di bash
 
 contoh:
 
-![App Screenshoot](assets\Expansion\makefileexpansion.png)
+![App Screenshoot](assets/Expansion/makefileexpansion.png)
 
 source code
-![App Screenshoot](assets\Expansion\isi_expansion.png)
+![App Screenshoot](assets/Expansion/isi_expansion.png)
 
 output
-![App Screenshoot](assets\Expansion\output.png)
+![App Screenshoot](assets/Expansion/output.png)
 
 Analisis: 
 <br>
@@ -357,13 +357,13 @@ Ada berbagai jenis ekspresi konisional di Bash
 
 Bash menyediakan operator logika pada FIle dan direktori untuk menguji ekspresi kondisional
 
-![App Screenshoot](assets\Conditional-Expression\make_conditional.png)
+![App Screenshoot](assets/Conditional-Expression/make_conditional.png)
 
 Source code
-![App Screenshoot](assets\COnditional-Expression\isi_conditional.png)
+![App Screenshoot](assets/COnditional-Expression/isi_conditional.png)
 
 Output
-![App Screenshoot](assets\Conditional-expression\output_condition.png)
+![App Screenshoot](assets/Conditional-expression/output_condition.png)
 
 Analisis: 
 <br>
@@ -388,11 +388,11 @@ Pernyataan case mirip dengan switch case dalam bahasa pemrograman lain dimana ap
 
 contoh: 
 
-![App Screenshoot](assets\Case-Statement\makecasestatements.png)
+![App Screenshoot](assets/Case-Statement/makecasestatements.png)
 
-![App Screenshoot](assets\Case-Statement\isi_casestatements.png)
+![App Screenshoot](assets/Case-Statement/isi_casestatements.png)
 
-![App Screenshoot](assets\Case-Statement\outputcasestatements.png)
+![App Screenshoot](assets/Case-Statement/outputcasestatements.png)
 
 Analisis: 
 <br>
@@ -442,13 +442,13 @@ Terdapat variabel global jhon1. variabel tersebut akan disesuaikan dengan case a
 
 - Tanda kutip tunggal `( ')` digunakan untuk mendefinisikan suatu string tanpa arti khusus. Artinya semua variabel dan ekspansi tidak diinterpretasikan dan mencetak string literal yang sama
 
-![App Screenshoot](assets\Special-Characters\make_caracter1.png)
+![App Screenshoot](assets/Special-Characters/make_caracter1.png)
 
 source code
-![App Screenshoot](assets\Special-Characters\isi_caracter1.png)
+![App Screenshoot](assets/Special-Characters/isi_caracter1.png)
 
 output
-![App Screenshoot](assets\Special-Characters\output_caracter1.png)
+![App Screenshoot](assets/Special-Characters/output_caracter1.png)
 
 Analisis: 
 <br>
@@ -463,11 +463,11 @@ Jika menggunakan tanda kutip tunggal, maka variabel nama tidak diperluas dan dic
 
 - jika string tidak ingin memperluas variabelnya, maka Anda dapat keluar \sebelum `$simbol dolar`
 
-![App Screenshoot](assets\Special-Characters\make_caracter2.png)
+![App Screenshoot](assets/Special-Characters/make_caracter2.png)
 
-![App Screenshoot](assets\Special-Characters\isi_caracter2.png)
+![App Screenshoot](assets/Special-Characters/isi_caracter2.png)
 
-![App Screenshoot](assets\Special-Characters\output_caracter2.png)
+![App Screenshoot](assets/Special-Characters/output_caracter2.png)
 
 Analisis: 
 <br>
@@ -530,13 +530,13 @@ Conditional
 
 contoh: 
 
-![App Screenshoot](assets\if-elif-else\make_ifelifelse.png)
+![App Screenshoot](assets/if-elif-else/make_ifelifelse.png)
 
 source code:
-![App Screenshoot](assets\if-elif-else\isi_ifelifelse.png)
+![App Screenshoot](assets/if-elif-else/isi_ifelifelse.png)
 
 output:
-![App Screenshoot](assets\if-elif-else\output_ifelifelse.png)
+![App Screenshoot](assets/if-elif-else/output_ifelifelse.png)
 
 Analisis: 
 <br>
@@ -554,37 +554,37 @@ Skrip Bash menyediakan berbagai jenis loop
 
 a.  for loop
 
-![App Screenshoot](assets\Loops\makeloops1.png)
+![App Screenshoot](assets/Loops/makeloops1.png)
 
 Source code
-![App Screenshoot](assets\Loops\isi_loops1.png)
+![App Screenshoot](assets/Loops/isi_loops1.png)
 
 Output
-![App Screenshoot](assets\Loops\outputloops_1.png)
+![App Screenshoot](assets/Loops/outputloops_1.png)
 
 Analisis: 
 <br> menampilkan index elemen dari setiap iterasi loop
 
 b. for index loop
 
-![App Screenshoot](assets\Loops\makeloops1.png)
+![App Screenshoot](assets/Loops/makeloops1.png)
 
 Source code
-![App Screenshoot](assets\Loops\isi_loops1.png)
+![App Screenshoot](assets/Loops/isi_loops1.png)
 
 output
-![App Screenshoot](assets\Loops\outputloops_1.png)
+![App Screenshoot](assets/Loops/outputloops_1.png)
 
 Analisis: 
 <br>
 
 c. while loop
 
-![App Screenshoot](assets\Loops\make_loops2.png)
+![App Screenshoot](assets/Loops/make_loops2.png)
 
-![App Screenshoot](assets\Loops\isi_loops2.png)
+![App Screenshoot](assets/Loops/isi_loops2.png)
 
-![App Screenshoot](assets\Loops\output_loops2.png)
+![App Screenshoot](assets/Loops/output_loops2.png)
 
 Analisis: 
 <br> mencetak angka dari 0 hingga 5 dengan nilai index iterasinya bertambah 1
@@ -593,23 +593,23 @@ Analisis:
 
 e. while loop 
 
-![App Screenshoot](assets\Loops\make_loops3.png)
+![App Screenshoot](assets/Loops/make_loops3.png)
 
 Source code
-![App Screenshoot](assets\Loops\isi_loops3.png)
+![App Screenshoot](assets/Loops/isi_loops3.png)
 
 output
-![App Screenshoot](assets\Loops\output_loops3_1.png)
+![App Screenshoot](assets/Loops/output_loops3_1.png)
 
-![App Screenshoot](assets\Loops\output_loops3_2.png)
+![App Screenshoot](assets/Loops/output_loops3_2.png)
 
-![App Screenshoot](assets\Loops\output_loops3_3.png)
+![App Screenshoot](assets/Loops/output_loops3_3.png)
 
-![App Screenshoot](assets\Loops\output_loops3_4.png)
+![App Screenshoot](assets/Loops/output_loops3_4.png)
 
-![App Screenshoot](assets\Loops\output_loops3_5.png)
+![App Screenshoot](assets/Loops/output_loops3_5.png)
 
-![App Screenshoot](assets\Loops\output_loops3_6.png)
+![App Screenshoot](assets/Loops/output_loops3_6.png)
 
 
 Analisis: 
@@ -617,15 +617,15 @@ Analisis:
 
 e. while-until loop
 
-![App Screenshoot](assets\Loops\make_loops4.png)
+![App Screenshoot](assets/Loops/make_loops4.png)
 
-![App Screenshoot](assets\Loops\isi_loops4.png)
+![App Screenshoot](assets/Loops/isi_loops4.png)
 
-![App Screenshoot](assets\Loops\output_loops4_1.png)
+![App Screenshoot](assets/Loops/output_loops4_1.png)
 
-![App Screenshoot](assets\Loops\output_loops4_2.png)
+![App Screenshoot](assets/Loops/output_loops4_2.png)
 
-![App Screenshoot](assets\Loops\output_loops4_3.png)
+![App Screenshoot](assets/Loops/output_loops4_3.png)
 
 
 Analisis: 
@@ -639,13 +639,13 @@ Ekspresi adalah istilah yang digunakan dalam matematika untuk menunjukkan suatu 
 
 a. Ekspresi jumlah
 
-![App Screenshoot](assets\Append-String\make_appendstring.png)
+![App Screenshoot](assets/Append-String/make_appendstring.png)
 
 source code
-![App Screenshoot](assets\Append-String\isi_appendstring.png)
+![App Screenshoot](assets/Append-String/isi_appendstring.png)
 
 Output
-![App Screenshoot](assets\Append-String\output_appendstring.png)
+![App Screenshoot](assets/Append-String/output_appendstring.png)
 
 Analisis: 
 <br>
@@ -653,13 +653,13 @@ program menampilkan hasil penjumlahan dari 12 dan 11
 
 b. Operator
 
-![App Screenshoot](assets\Append-String\make_appendstring2.png)
+![App Screenshoot](assets/Append-String/make_appendstring2.png)
 
 Source code
-![App Screenshoot](assets\Append-String\isi_appendstring2.png)
+![App Screenshoot](assets/Append-String/isi_appendstring2.png)
 
 output
-![App Screenshoot](assets\Append-String\output_appendstring2.png)
+![App Screenshoot](assets/Append-String/output_appendstring2.png)
 
 Analisis: 
 <br>
@@ -672,13 +672,13 @@ Ekspansi Bash Athematic
 
       $((expression))
 
-![App Screenshoot](assets\Append-String\make_appendstring3.png)
+![App Screenshoot](assets/Append-String/make_appendstring3.png)
 
 Source code
-![App Screenshoot](assets\Append-String\isi_appendstring3.png)
+![App Screenshoot](assets/Append-String/isi_appendstring3.png)
 
 Output:
-![App Screenshoot](assets\Append-String\output_appendstring3.png)
+![App Screenshoot](assets/Append-String/output_appendstring3.png)
 
 Analisis: 
 <br>
@@ -695,11 +695,11 @@ Fungsi berisi nama fungsi yang diapit `{}`, dengan cara :
       # multiple lines
       }
 
-![App Screenshoot](assets\Functions\makefunction.png)
+![App Screenshoot](assets/Functions/makefunction.png)
 
-![App Screenshoot](assets\Functions\isi_function.png)
+![App Screenshoot](assets/Functions/isi_function.png)
 
-![App Screenshoot](assets\Functions\output_function.png)
+![App Screenshoot](assets/Functions/output_function.png)
 
 Analisis: 
 <br>
@@ -726,11 +726,11 @@ yang dipanggil melalui function dibawah ini
     }
 
 
-![App Screenshoot](assets\Functions\make_function2.png)
+![App Screenshoot](assets/Functions/make_function2.png)
 
-![App Screenshoot](assets\Functions\isi_function2.png)
+![App Screenshoot](assets/Functions/isi_function2.png)
 
-![App Screenshoot](assets\Functions\output_function2.png)
+![App Screenshoot](assets/Functions/output_function2.png)
 
 Analisis: 
 <br>
@@ -779,11 +779,11 @@ menampilkan nama dengan memanggil function hello
 
 a. 
 
-![App Screenshoot](assets\Operators\make_operator1.png)
+![App Screenshoot](assets/Operators/make_operator1.png)
 
-![App Screenshoot](assets\Operators\isi_operator1.png)
+![App Screenshoot](assets/Operators/isi_operator1.png)
 
-![App Screenshoot](assets\Operators\output_operator1.png)
+![App Screenshoot](assets/Operators/output_operator1.png)
 
 Analisis: 
 <br>
@@ -791,11 +791,11 @@ Melakukan pengecekan dengan kondisi tertentu apakah angka pertama sama dengan an
 
 b. 
 
-![App Screenshoot](assets\Operators\make_operator2.png)
+![App Screenshoot](assets/Operators/make_operator2.png)
 
-![App Screenshoot](assets\Operators\isi_operator2.png)
+![App Screenshoot](assets/Operators/isi_operator2.png)
 
-![App Screenshoot](assets\Operators\output_operator2.png)
+![App Screenshoot](assets/Operators/output_operator2.png)
 
 Analisis: 
 <br>
@@ -824,11 +824,11 @@ Melakukan pengecekan dengan kondisi tertentu apakah angka pertama sama dengan an
 
 a. 
 
-![App Screenshoot](assets\Numbers-Comparison\make_num_c1.png)
+![App Screenshoot](assets/Numbers-Comparison/make_num_c1.png)
 
-![App Screenshoot](assets\Numbers-Comparison\isi_num_c1.png)
+![App Screenshoot](assets/Numbers-Comparison/isi_num_c1.png)
 
-![App Screenshoot](assets\Operators\output_num_c1.png)
+![App Screenshoot](assets/Operators/output_num_c1.png)
 
 Analisis: 
 <br>
@@ -836,11 +836,11 @@ melakukan pengecekan variabel apakah nilainya sama atau tidak menggunakan operat
 
 b. 
 
-![App Screenshoot](assets\Numbers-Comparison\make_num_c2.png)
+![App Screenshoot](assets/Numbers-Comparison/make_num_c2.png)
 
-![App Screenshoot](assets\Numbers-Comparison\isi_num_c2.png)
+![App Screenshoot](assets/Numbers-Comparison/isi_num_c2.png)
 
-![App Screenshoot](assets\Numbers-Comparison\output_num_c2.png)
+![App Screenshoot](assets/Numbers-Comparison/output_num_c2.png)
 
 Analisis: 
 <br>
@@ -850,11 +850,11 @@ melakukan pengecekan variabel apakah nilainya sama atau tidak menggunakan operat
 
 a. 
 
-![App Screenshoot](assets\Check-Directory\make_directory1.png)
+![App Screenshoot](assets/Check-Directory/make_directory1.png)
 
-![App Screenshoot](assets\Check-Directory\isi_directory1.png)
+![App Screenshoot](assets/Check-Directory/isi_directory1.png)
 
-![App Screenshoot](assets\Check-Directory\output_directory1.png)
+![App Screenshoot](assets/Check-Directory/output_directory1.png)
 
 Analisis: 
 <br>
@@ -862,22 +862,22 @@ Melakukan pengecekan folder dengan perintah `-d` jika ada maka menampilkan pesan
 
 b. 
 
-![App Screenshoot](assets\Check-Directory\make_directory2.png)
+![App Screenshoot](assets/Check-Directory/make_directory2.png)
 
-![App Screenshoot](assets\Check-Directory\isi_directory2.png)
+![App Screenshoot](assets/Check-Directory/isi_directory2.png)
 
-![App Screenshoot](assets\Check-Directory\output_directory2.png)
+![App Screenshoot](assets/Check-Directory/output_directory2.png)
 
 Analisis: 
 <br> Melakukan pengecekan apakah directorynya ada, jika tidak maka menampilkan pesan tidak ada dan membuat directory dengan mengakses `$folder`
 
 c. 
 
-![App Screenshoot](assets\Check-Directory\make_directory3.png)
+![App Screenshoot](assets/Check-Directory/make_directory3.png)
 
-![App Screenshoot](assets\Check-Directory\isi_directory3.png)
+![App Screenshoot](assets/Check-Directory/isi_directory3.png)
 
-![App Screenshoot](assets\Check-Directory\output_directory3.png)
+![App Screenshoot](assets/Check-Directory/output_directory3.png)
 
 Analisis: 
 <br>
@@ -885,11 +885,11 @@ Menggunakan alternatif ekspresi kondisi ternary sebagai pengganti conditional if
 
 d. 
 
-![App Screenshoot](assets\Check-Directory\make_directory4.png)
+![App Screenshoot](assets/Check-Directory/make_directory4.png)
 
-![App Screenshoot](assets\Check-Directory\isi_directory4.png)
+![App Screenshoot](assets/Check-Directory/isi_directory4.png)
 
-![App Screenshoot](assets\Check-Directory\output_directory4.png)
+![App Screenshoot](assets/Check-Directory/output_directory4.png)
 
 Analisis: 
 <br>
@@ -910,11 +910,11 @@ Contoh:
 
 a. 
 
-![App Screenshoot](assets\File-Name\make_file1.png)
+![App Screenshoot](assets/File-Name/make_file1.png)
 
-![App Screenshoot](assets\File-Name\isi_file1.png)
+![App Screenshoot](assets/File-Name/isi_file1.png)
 
-![App Screenshoot](assets\File-Name\output_file1.png)
+![App Screenshoot](assets/File-Name/output_file1.png)
 
 Analisis: 
 <br>
@@ -922,11 +922,11 @@ path Directorynyab adalah /home/john/run.sh, dan nama file yang dikembalikan ada
 
 b. 
 
-![App Screenshoot](assets\File-Name\make_file2.png)
+![App Screenshoot](assets/File-Name/make_file2.png)
 
-![App Screenshoot](assets\File-Name\isi_file2.png)
+![App Screenshoot](assets/File-Name/isi_file2.png)
 
-![App Screenshoot](assets\File-Name\output_file2.png)
+![App Screenshoot](assets/File-Name/output_file2.png)
 
 Analisis: 
 <br>
@@ -934,11 +934,11 @@ Perintah ini digunakan untuk menghilangkan direktori dan menghasilkan nama file 
 
 c. 
 
-![App Screenshoot](assets\File-Name\make_file3.png)
+![App Screenshoot](assets/File-Name/make_file3.png)
 
-![App Screenshoot](assets\File-Name\isi_file3.png)
+![App Screenshoot](assets/File-Name/isi_file3.png)
 
-![App Screenshoot](assets\File-Name\output_file3.png)
+![App Screenshoot](assets/File-Name/output_file3.png)
 
 Analisis: 
 <br>
@@ -946,11 +946,11 @@ Perintah ini digunakan untuk menghapus jalur direktori dan mengembalikan nama fi
 
 d. 
 
-![App Screenshoot](assets\File-Name\make_file4.png)
+![App Screenshoot](assets/File-Name/make_file4.png)
 
-![App Screenshoot](assets\File-Name\isi_file4.png)
+![App Screenshoot](assets/File-Name/isi_file4.png)
 
-![App Screenshoot](assets\File-Name\output_file4.png)
+![App Screenshoot](assets/File-Name/output_file4.png)
 
 Analisis: 
 <br>
@@ -966,11 +966,11 @@ Memisahkan string dapat dilakukan dengan 3 cara :
 Contoh:
 
 a.
-![App Screenshoot](assets\Split-String\make_split1.png)
+![App Screenshoot](assets/Split-String/make_split1.png)
 
-![App Screenshoot](assets\Split-String\isi_split_string1.png)
+![App Screenshoot](assets/Split-String/isi_split_string1.png)
 
-![App Screenshoot](assets\Split-String\output_split1.png)
+![App Screenshoot](assets/Split-String/output_split1.png)
 
 Analisis: 
 <br>
@@ -978,11 +978,11 @@ Analisis:
 
 b. 
 
-![App Screenshoot](assets\Split-String\make_spilt2.png)
+![App Screenshoot](assets/Split-String/make_spilt2.png)
 
-![App Screenshoot](assets\Split-String\isi_split2.png)
+![App Screenshoot](assets/Split-String/isi_split2.png)
 
-![App Screenshoot](assets\Split-String\output_split2.png)
+![App Screenshoot](assets/Split-String/output_split2.png)
 
 Analisis: 
 <br>
@@ -990,11 +990,11 @@ ng masukan terdiri dari elemen yang dipisahkan oleh hyphens. Variabel shell IFS(
 
 c. 
 
-![App Screenshoot](assets\Split-String\make_split3.png)
+![App Screenshoot](assets/Split-String/make_split3.png)
 
-![App Screenshoot](assets\Split-String\isi_split3.png)
+![App Screenshoot](assets/Split-String/isi_split3.png)
 
-![App Screenshoot](assets\Split-String\output_spilt3.png)
+![App Screenshoot](assets/Split-String/output_spilt3.png)
 
 Analisis: 
 <br>
@@ -1005,22 +1005,22 @@ Perluasan parameter digunakan untuk mengubah nilai variabel berdasarkan opsi yan
 
 a. 
 
-![App Screenshoot](assets\String-Length\make_panjang1.png)
+![App Screenshoot](assets/String-Length/make_panjang1.png)
 
-![App Screenshoot](assets\String-Length\isi_panjang1.png)
+![App Screenshoot](assets/String-Length/isi_panjang1.png)
 
-![App Screenshoot](assets\String-Length\output_panjang1.png)
+![App Screenshoot](assets/String-Length/output_panjang1.png)
 
 Analisis: 
 <br> Melibatkan penggunaan `${#variable}` sintaksis untuk mendapatkan panjang variabel string.
 
 b. 
 
-![App Screenshoot](assets\String-Length\make_panjang2.png)
+![App Screenshoot](assets/String-Length/make_panjang2.png)
 
-![App Screenshoot](assets\String-Length\isi_panjang2.png)
+![App Screenshoot](assets/String-Length/isi_panjang2.png)
 
-![App Screenshoot](assets\String-Length\output_panjang2.png)
+![App Screenshoot](assets/String-Length/output_panjang2.png)
 
 Analisis: 
 <br>
@@ -1028,11 +1028,11 @@ Melibatkan penggunaan perintah `wc -m`, baik secara langsung dengan string atau 
 
 c. 
 
-![App Screenshoot](assets\String-Length\make_panjang3.png)
+![App Screenshoot](assets/String-Length/make_panjang3.png)
 
-![App Screenshoot](assets\String-Length\isi_panjang3.png)
+![App Screenshoot](assets/String-Length/isi_panjang3.png)
 
-![App Screenshoot](assets\String-Length\output_panjang3.png)
+![App Screenshoot](assets/String-Length/output_panjang3.png)
 
 Analisis: 
 <br>
@@ -1042,9 +1042,9 @@ Melibatkan penggunaan `expr` perintah untuk mencari panjang string. `${}` mewaki
 
 a. 
 
-![App Screenshoot](assets\Bashrc\open_bashrc.png)
+![App Screenshoot](assets/Bashrc/open_bashrc.png)
 
-![App Screenshoot](assets\Bashrc\isi_bashrc.png)
+![App Screenshoot](assets/Bashrc/isi_bashrc.png)
 
 Analisis: 
 <br>
@@ -1063,11 +1063,11 @@ Contoh:
 
 a. 
 
-![App Screenshoot](assets\Ternary-Operator\make_ternary1.png)
+![App Screenshoot](assets/Ternary-Operator/make_ternary1.png)
 
-![App Screenshoot](assets\Ternary-Operator\make_ternary1.png)
+![App Screenshoot](assets/Ternary-Operator/make_ternary1.png)
 
-![App Screenshoot](assets\ternary-Operator\output_ternary1.png)
+![App Screenshoot](assets/ternary-Operator/output_ternary1.png)
 
 Analisis: 
 <br> Melalukan pengecekan pada age apakah nilainya sama dengan 25 menggunakan if-else condition atau dapat menggunakan ternary melalui 3 kondisi, jika ekspresi1 benar, Ekspresi2 dievaluasi, jika tidak, Ekspresi3 dievaluasi seperti pengecekan seperti dibawah ini.
@@ -1090,22 +1090,22 @@ Mengubah input huruf besar menjadi huruf kecil
 
 a. 
 
-![App Screenshoot](assets\Lowercase\make_lowercase1.png)
+![App Screenshoot](assets/Lowercase/make_lowercase1.png)
 
-![App Screenshoot](assets\Lowercase\isi_lowercase1.png)
+![App Screenshoot](assets/Lowercase/isi_lowercase1.png)
 
-![App Screenshoot](assets\Lowercase\output_lowercase1.png)
+![App Screenshoot](assets/Lowercase/output_lowercase1.png)
 
 Analisis: 
 <br>Mengubah Hello world,Welcome menjadi hello world, welcome menggunakan perintah `tr`
 
 b. 
 
-![App Screenshoot](assets\Lowercase\make_lowercase2.png)
+![App Screenshoot](assets/Lowercase/make_lowercase2.png)
 
-![App Screenshoot](assets\Lowercase\isi_lowercase2.png)
+![App Screenshoot](assets/Lowercase/isi_lowercase2.png)
 
-![App Screenshoot](assets\Lowercase\output_lowercase2.png)
+![App Screenshoot](assets/Lowercase/output_lowercase2.png)
 
 Analisis: 
 <br> Mengubah Hello world, Welcome menjadi hello world, welcome menggunakan perintah `tr`
@@ -1113,11 +1113,11 @@ Analisis:
 
 c. 
 
-![App Screenshoot](assets\Lowercase\make_lowercase3.png)
+![App Screenshoot](assets/Lowercase/make_lowercase3.png)
 
-![App Screenshoot](assets\Lowercase\isi_lowercase3.png)
+![App Screenshoot](assets/Lowercase/isi_lowercase3.png)
 
-![App Screenshoot](assets\Lowercase\output_lowercase3.png)
+![App Screenshoot](assets/Lowercase/output_lowercase3.png)
 
 Analisis: 
 <br>
@@ -1125,11 +1125,11 @@ Mengubah string menjadi huruf kecil menggunakan `awk`, `tolower` fungsinya digab
 
 d. 
 
-![App Screenshoot](assets\Lowercase\make_lowercase4.png)
+![App Screenshoot](assets/Lowercase/make_lowercase4.png)
 
-![App Screenshoot](assets\Lowercase\isi_lowercase4.png)
+![App Screenshoot](assets/Lowercase/isi_lowercase4.png)
 
-![App Screenshoot](assets\Lowercase\output_lowercase4.png)
+![App Screenshoot](assets/Lowercase/output_lowercase4.png)
 
 Analisis: 
 <br>
@@ -1143,11 +1143,11 @@ Mengubah huruf kecil menjadi besar
 
 a. 
 
-![App Screenshoot](assets\Uppercase\make_uppercase1.png)
+![App Screenshoot](assets/Uppercase/make_uppercase1.png)
 
-![App Screenshoot](assets\Uppercase\isi_uppercase1.png)
+![App Screenshoot](assets/Uppercase/isi_uppercase1.png)
 
-![App Screenshoot](assets\Uppercase\output_uppercase1.png)
+![App Screenshoot](assets/Uppercase/output_uppercase1.png)
 
 Analisis: 
 <br>Mengubah massage dari huruf kecil semua menjadi huruf besar menggunakan perintah `tr`
@@ -1155,33 +1155,33 @@ Analisis:
 
 b. 
 
-![App Screenshoot](assets\Uppercase\make_uppercase2.png)
+![App Screenshoot](assets/Uppercase/make_uppercase2.png)
 
-![App Screenshoot](assets\Uppercase\isi_uppercase2.png)
+![App Screenshoot](assets/Uppercase/isi_uppercase2.png)
 
-![App Screenshoot](assets\Uppercase\output_uppercase2.png)
+![App Screenshoot](assets/Uppercase/output_uppercase2.png)
 
 Analisis: 
 <br>Mengubah massage dari huruf kecil semua menjadi huruf besar menggunakan perintah `tr` `[:upper]`dapat diubah menjadi  `a-z` `A-Z`
 
 c. 
 
-![App Screenshoot](assets\Uppercase\make_uppercase3.png)
+![App Screenshoot](assets/Uppercase/make_uppercase3.png)
 
-![App Screenshoot](assets\Uppercase\isi_uppercase3.png)
+![App Screenshoot](assets/Uppercase/isi_uppercase3.png)
 
-![App Screenshoot](assets\Uppercase\output_uppercase3.png)
+![App Screenshoot](assets/Uppercase/output_uppercase3.png)
 
 Analisis: 
 <br>`toupper` fungsinya` digabungkan dengan `awk`. Hasilnya kemudian diteruskan ke perintah echo menggunakan operator `pipa |`
 
 d. 
 
-![App Screenshoot](assets\Uppercase\make_uppercase4.png)
+![App Screenshoot](assets/Uppercase/make_uppercase4.png)
 
-![App Screenshoot](assets\Uppercase\isi_uppercase4.png)
+![App Screenshoot](assets/Uppercase/isi_uppercase4.png)
 
-![App Screenshoot](assets\Uppercase\output_uppercase4.png)
+![App Screenshoot](assets/Uppercase/output_uppercase4.png)
 
 Analisis: 
 <br>Menambahkan dua tanda sirkumfleks (^) ke sebuah string akan membuat string menjadi string huruf besar. Bisa juga menggunakan `print uc` perintah di `Perl` mengubah string menjadi huruf besar
@@ -1190,11 +1190,11 @@ Analisis:
 
 e. 
 
-![App Screenshoot](assets\Uppercase\make_uppercase5.png)
+![App Screenshoot](assets/Uppercase/make_uppercase5.png)
 
-![App Screenshoot](assets\Uppercase\isi_uppercase5.png)
+![App Screenshoot](assets/Uppercase/isi_uppercase5.png)
 
-![App Screenshoot](assets\Uppercase\output_uppercase5.png)
+![App Screenshoot](assets/Uppercase/output_uppercase5.png)
 
 Analisis: 
 <br>
@@ -1210,11 +1210,11 @@ Terakhir, cetak string jika substring ditemukan.
 
 a. 
 
-![App Screenshoot](assets\Substring\make_substring1.png)
+![App Screenshoot](assets/Substring/make_substring1.png)
 
-![App Screenshoot](assets\Substring\isi_substring1.png)
+![App Screenshoot](assets/Substring/isi_substring1.png)
 
-![App Screenshoot](assets\Substring\output_substring1.png)
+![App Screenshoot](assets/Substring/output_substring1.png)
 
 Analisis: 
 <br> Diberikan inisialisasi welcome to w3schools sebagai mainstringdimana apabila kalimat w3schools ada didalam mainstring maka akan menampilkan w3schools exists in the main string
@@ -1222,20 +1222,20 @@ Analisis:
 ### Gunakan Ekspresi Reguler untuk Menemukan Substring
 Operator =~memfasilitasi pencarian substring dalam string tertentu, digunakan dalam blok if.
 
-![App Screenshoot](assets\Substring\make_substring3.png)
+![App Screenshoot](assets/Substring/make_substring3.png)
 
-![App Screenshoot](assets\Substring\isi_substring3.png)
+![App Screenshoot](assets/Substring/isi_substring3.png)
 
-![App Screenshoot](assets\Substring\output_substring3.png)
+![App Screenshoot](assets/Substring/output_substring3.png)
 
 ### Gunakan perintah grep
 Perintah grep digunakan untuk mencari string tertentu, disalurkan ke string utama untuk perbandingan.
 
-![App Screenshoot](assets\Substring\make_substring4.png)
+![App Screenshoot](assets/Substring/make_substring4.png)
 
-![App Screenshoot](assets\Substring\isi_substring4.png)
+![App Screenshoot](assets/Substring/isi_substring4.png)
 
-![App Screenshoot](assets\Substring\output_substring4.png)
+![App Screenshoot](assets/Substring/output_substring4.png)
 
 
 ## 24. Variable Set
@@ -1247,11 +1247,11 @@ Memeriksa variabel dalam pemrograman skrip bash shell
 
 a. 
 
-![App Screenshoot](assets\Variable-set\make_set1.png)
+![App Screenshoot](assets/Variable-set/make_set1.png)
 
-![App Screenshoot](assets\Variable-set\isi_set1.png)
+![App Screenshoot](assets/Variable-set/isi_set1.png)
 
-![App Screenshoot](assets\Variable-set\output_set1.png)
+![App Screenshoot](assets/Variable-set/output_set1.png)
 
 Analisis: 
 <br> 
@@ -1261,11 +1261,11 @@ variable2 tidak dideklarasikan dan tidak disetel.
 
 b. 
 
-![App Screenshoot](assets\Variable-set\make_set2.png)
+![App Screenshoot](assets/Variable-set/make_set2.png)
 
-![App Screenshoot](assets\Variable-set\isi_set2.png)
+![App Screenshoot](assets/Variable-set/isi_set2.png)
 
-![App Screenshoot](assets\Variable-set\output_set2.png)
+![App Screenshoot](assets/Variable-set/output_set2.png)
 
 Analisis: 
 <br>Cara lain untuk memeriksa suatu variabel adalah dengan menyetel menggunakan `-vopsi`
@@ -1273,11 +1273,11 @@ Analisis:
 
 c. 
 
-![App Screenshoot](assets\Variable-set\make_set3.png)
+![App Screenshoot](assets/Variable-set/make_set3.png)
 
-![App Screenshoot](assets\Variable-set\isi_set3.png)
+![App Screenshoot](assets/Variable-set/isi_set3.png)
 
-![App Screenshoot](assets\Variable-set\output_set3.png)
+![App Screenshoot](assets/Variable-set/output_set3.png)
 
 Analisis: 
 <br>
@@ -1286,11 +1286,11 @@ variable2 tidak dideklarasikan dan tidak disetel.
 
 d. 
 
-![App Screenshoot](assets\Variable-set\make_set4.png)
+![App Screenshoot](assets/Variable-set/make_set4.png)
 
-![App Screenshoot](assets\Variable-set\isi_set4.png)
+![App Screenshoot](assets/Variable-set/isi_set4.png)
 
-![App Screenshoot](assets\Variable-set\output_set4.png)
+![App Screenshoot](assets/Variable-set/output_set4.png)
 
 Analisis: 
 <br>
@@ -1298,44 +1298,44 @@ Pemeriksaan variabel dibandingkan dengan spasi dan membungkus ekspresi ini di da
 
 e. 
 
-![App Screenshoot](assets\Variable-set\make-set5.png)
+![App Screenshoot](assets/Variable-set/make-set5.png)
 
-![App Screenshoot](assets\Variable-set\isi_set5.png)
+![App Screenshoot](assets/Variable-set/isi_set5.png)
 
-![App Screenshoot](assets\Variable-set\output_set5.png)
+![App Screenshoot](assets/Variable-set/output_set5.png)
 
 Analisis: 
 <br>Menggunakan variabel dalam tanda kutip ganda yang dibungkus dalam tanda kurung tunggal `[ ]` untuk dicek kondisinya apakah variabel ada atau tidak
 
 f. 
 
-![App Screenshoot](assets\Variable-set\make_set6.png)
+![App Screenshoot](assets/Variable-set/make_set6.png)
 
-![App Screenshoot](assets\Variable-set\isi_set6.png)
+![App Screenshoot](assets/Variable-set/isi_set6.png)
 
-![App Screenshoot](assets\Variable-set\output_set6.png)
+![App Screenshoot](assets/Variable-set/output_set6.png)
 
 Analisis: 
 <br> Menambahkan ! operator untuk melakukan pengecekan ada atau tidaknya variabel
 
 g. 
 
-![App Screenshoot](assets\Variable-set\make_set7.png)
+![App Screenshoot](assets/Variable-set/make_set7.png)
 
-![App Screenshoot](assets\Variable-set\isi_set7.png)
+![App Screenshoot](assets/Variable-set/isi_set7.png)
 
-![App Screenshoot](assets\Variable-set\output_set7.png)
+![App Screenshoot](assets/Variable-set/output_set7.png)
 
 Analisis: 
 <br> Menambahkan ! operator untuk melakukan pengecekan ada atau tidaknya variabel dengan menambahkan `" "` pada `$variabel`sebagai identitas string
 
 h. 
 
-![App Screenshoot](assets\Variable-set\make_set8.png)
+![App Screenshoot](assets/Variable-set/make_set8.png)
 
-![App Screenshoot](assets\Variable-set\isi_set8.png)
+![App Screenshoot](assets/Variable-set/isi_set8.png)
 
-![App Screenshoot](assets\Variable-set\output_set8.png)
+![App Screenshoot](assets/Variable-set/output_set8.png)
 
 Analisis: 
 <br>
@@ -1345,11 +1345,11 @@ Menggunaan -z lainnya untuk memeriksa variabel disetel dan kosong atau tidak kos
 
 a. 
 
-![App Screenshoot](assets\Iterate-Nos\make_range1.png)
+![App Screenshoot](assets/Iterate-Nos/make_range1.png)
 
-![App Screenshoot](assets\Iterate-Nos\isi_range1.png)
+![App Screenshoot](assets/Iterate-Nos/isi_range1.png)
 
-![App Screenshoot](assets\Iterate-Nos\output_range1.png)
+![App Screenshoot](assets/Iterate-Nos/output_range1.png)
 
 Analisis: 
 <br>
@@ -1357,11 +1357,11 @@ Menggunakan `seq`. `seq` menghasilkan urutan angka.seqlebih baik dibandingkan de
 
 b. 
 
-![App Screenshoot](assets\Iterate-Nos\make_range2.png)
+![App Screenshoot](assets/Iterate-Nos/make_range2.png)
 
-![App Screenshoot](assets\Iterate-Nos\isi_range2.png)
+![App Screenshoot](assets/Iterate-Nos/isi_range2.png)
 
-![App Screenshoot](assets\Iterate-Nos\output_range2.png)
+![App Screenshoot](assets/Iterate-Nos/output_range2.png)
 
 Analisis: 
 <br>
@@ -1369,11 +1369,11 @@ Menggunakan perulangan for dimana akan menampilkan hasil tiap iterasi kurang dar
 
 c. 
 
-![App Screenshoot](assets\Iterate-Nos\make_range3.png)
+![App Screenshoot](assets/Iterate-Nos/make_range3.png)
 
-![App Screenshoot](assets\Iterate-Nos\isi_range3.png)
+![App Screenshoot](assets/Iterate-Nos/isi_range3.png)
 
-![App Screenshoot](assets\Iterate-Nos\output_range3.png)
+![App Screenshoot](assets/Iterate-Nos/output_range3.png)
 
 Analisis: 
 <br>
