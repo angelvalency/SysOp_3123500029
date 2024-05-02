@@ -43,6 +43,29 @@ Kedua jenis BIOS ini adalah tabel partisi yang digunakan untuk menjalankan peran
   
 ![image](https://github.com/angelvalency/sysop_3123500029/assets/149746443/9860874c-c718-4b84-93dc-31e2c473c580)
 
+BIOS (Basic Input/Output System)
+
+BIOS adalah firmware lawas yang sudah ada sejak lama. Fungsinya untuk melakukan pengecekan awal perangkat keras (POST - Power-On Self Test) dan memuat bootloader sistem operasi. Proses booting BIOS umumnya terdiri dari langkah berikut:
+
+POST: BIOS menyalakan komponen komputer dan melakukan pemeriksaan dasar untuk memastikan semuanya berfungsi dengan baik.
+Pencarian Bootloader: BIOS mencari program bootstrap loader pada penyimpanan, biasanya di Master Boot Record (MBR) pada sektor pertama harddisk.
+Pemuatan Bootloader: BIOS memuat bootloader ke dalam memori.
+Penyerahan Kendali: Bootloader mengambil alih kendali dan memuat sistem operasi dari penyimpanan.
+UEFI (Unified Extensible Firmware Interface)
+
+UEFI adalah antarmuka firmware yang lebih baru dan canggih dibanding BIOS. UEFI menawarkan beberapa kelebihan seperti:
+
+Antarmuka Grafis: UEFI umumnya memiliki antarmuka pengguna grafis dengan dukungan mouse dan keyboard, memudahkan navigasi pengaturan.
+Booting Cepat: UEFI berjalan pada mode prosesor 32-bit atau 64-bit, sehingga proses booting lebih cepat dibanding BIOS yang terbatas pada mode 16-bit.
+Dukungan Harddisk Besar: UEFI mendukung kapasitas harddisk lebih dari 2 TB, sementara BIOS terbatas pada 2 TB menggunakan skema partisi MBR.
+Fitur Keamanan: UEFI memiliki fitur keamanan tambahan seperti Secure Boot yang membantu mencegah booting dari perangkat yang tidak sah.
+Proses booting UEFI secara garis besar mirip dengan BIOS, namun dengan beberapa perbedaan:
+
+POST: Sama seperti BIOS, UEFI melakukan POST untuk memeriksa perangkat keras.
+UEFI Firmware: Alih-alih langsung mencari bootloader, UEFI memuat driver dan layanan tambahan dari partisi khusus pada harddisk yang disebut EFI System Partition (ESP).
+Boot Manager: UEFI menggunakan Boot Manager untuk memuat bootloader sistem operasi yang sesuai, bisa dari penyimpanan lokal atau jaringan.
+Penyerahan Kendali: Bootloader dimuat ke memori dan mengambil alih kendali untuk menjalankan sistem operasi.
+
 
 **Firmware**
 <br>
