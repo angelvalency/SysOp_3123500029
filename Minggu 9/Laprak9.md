@@ -108,11 +108,12 @@
 
 
 - Analisis
+      
+    Dalam masalah ini, ada dua proses, yaitu produsen (producer) dan konsumen (consumer), yang berbagi sebuah buffer dengan ukuran tetap. Tugas produsen adalah menghasilkan data atau item dan menempatkannya di dalam buffer. Sedangkan tugas konsumen adalah mengambil data dari buffer dan mengonsumsinya. Simaphore menggunakan variabel mutex yang digunakan untuk mengontrol akses ke bagian kritis. Nilai mutex 1 menunjukkan bahwa bagian kritis dapat diakses. User dapat memilih proses produsen (akan menampilkan buffer full jika datanya penuh didalam buffer), dan konsumer (menampilkan buffer empty jika datanya diambil semua sehingga buffer kosong).
 
 
 
-
-2. Producer consumer problem menggunakan wee sebagai solusi
+2. Producer consumer problem menggunakan wake-sleep sebagai solusi
 
 - Source code
 
@@ -296,3 +297,11 @@
     ![App Screenshoot](assets/output-wake-sleep.png)
 
 - Analisis
+
+     Program ini terdapat 2 fungsi thread yaitu produce dan consume. Mutex diinisialisasi sebagai variabel global untuk sinkronisasi antar thread. Jika item telah diproduksi, thread produsen akan menunggu (pthread_cond_wait) hingga thread konsumen mengonsumsi item tersebut.Setelah thread konsumen mengonsumsi item, thread produsen akan memberi tahu thread konsumen (pthread_cond_signal) bahwa produksi telah dilakukan. Kemudian, Jika tidak ada item yang tersedia untuk dikonsumsi, thread konsumen akan menunggu (pthread_cond_wait) hingga ada item yang diproduksi oleh thread produsen. Setelah mengonsumsi item, thread konsumen memberi tahu thread produsen (pthread_cond_signal) bahwa item telah dikonsumsi.
+
+
+
+# Kesimpulan
+
+Producen-consumen problem dapat diatasi dengan menggunakan semaphore dan weak sleep. Kita dapat menggunakan semaphore untuk mengatur akses ke buffer yang digunakan produsen dan konsumen, sementara weak-sleep digunakan untuk menunda proses produsen saat buffer penuh dan menunda proses konsumen saat buffer kosong.
