@@ -381,7 +381,7 @@ c.  Deskripsikan dan visualisasikan pohon proses hasil eksekusi dari kode progra
         ![App Screenshoot](assets/output_matriks.png)
 
     - Analisis
-          Program diatas membagi proses perkalian baris dan kolom menjadi 4 proses child, dimana data hasilnya akan disimpan didalam memori yang nantinya akan dipangggil           pada proses parents. 
+          Program diatas membagi proses perkalian baris dan kolom menjadi 4 proses child, dimana data hasilnya akan disimpan didalam memori yang nantinya akan dipanggil pada proses parents. 
 
 # Daftar Pustaka
 
