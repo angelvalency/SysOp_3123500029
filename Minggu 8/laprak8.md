@@ -954,7 +954,7 @@ d.
 
 Analisis: 
 <br>
-Gabungan dari file dengan ekstensi,hanya nama file tanpa ekstensi dan ekstensinya saja.
+Gabungan dari file dengan ekstensi, hanya nama file tanpa ekstensi dan ekstensinya saja.
 
 ## 17. Split String
 
