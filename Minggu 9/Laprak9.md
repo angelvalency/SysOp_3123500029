@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="font-weight: bold"> LAPORAN PRAKTIKUM VI SISTEM OPERASI<br>Proses dan Manajemen Proses</h1>
+  <h1 style="font-weight: bold"> LAPORAN PRAKTIKUM IX SISTEM OPERASI<br>Producer-Consumer Problem</h1>
   <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
 </div>
 <br />
