@@ -95,11 +95,11 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Output Source code
 
-     ![App Screenshoot](assets/SJF_chart.png)
+     
 
 - Flowchart algoritma Shortest Job First (SJF) Scheduling Non-preemptive
 
-
+   ![App Screenshoot](assets/SJF_chart.png)
 
 
 
