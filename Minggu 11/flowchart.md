@@ -15,13 +15,13 @@
 </div>
 
 # Daftar Isi
-- [Pendahuluan](#pendahuluan)
-- [Tugas Pendahuluan](#TugasPendahuluan)
-- [Kesimpulan](#Kesimpulan)
-- [Daftar Pustaka](#daftarpustaka)
+- [Pendahuluan](#a-pendahuluan)
+- [Tugas Pendahuluan](#b-tugas-pendahuluan)
+- [Kesimpulan](#c-kesimpulan)
+- [Daftar Pustaka](#d-daftarpustaka)
 
 
-# Pendahuluan
+# A. Pendahuluan
 ### Dasar Teori
 **A.	FCFS (First Come First Served)**
 
@@ -83,9 +83,7 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Flowchart algoritma FCFS (First Come First Served)
 
-
-
-
+    ![App Screenshoot](assets/FCFS_chart.png)
 
 - Analisis
 
@@ -97,9 +95,7 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Output Source code
 
-
-
-
+     ![App Screenshoot](assets/SJF_chart.png)
 
 - Flowchart algoritma Shortest Job First (SJF) Scheduling Non-preemptive
 
@@ -129,8 +125,8 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Analisis
 
-# Kesimpulan
+# C. Kesimpulan
 
 
-# Daftar Pustaka 
+# D. Daftar Pustaka 
 - [Algoritma Sceduling](https://www.studentterpelajar.com/2020/11/pengertian-dan-contoh-algortima.html)
