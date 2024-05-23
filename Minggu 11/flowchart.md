@@ -77,9 +77,7 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Output Source code
 
-
-
-
+     ![App Screenshoot](assets/FCFS_output.png)
 
 - Flowchart algoritma FCFS (First Come First Served)
 
@@ -87,6 +85,7 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Analisis
 
+Program diatas merupakan FCFS (First Come First Served) dengan metode Non-Preemtive. `proc` menyimpan informasi setiap proses yaitu nomor, arrival time, burst time, turnaround time dan waktu selesai. User mengimput banyaknya proses yang ingin dieksekusi lalu akan **diurutkan sesuai dengan arrival timenya**. Program menampilkan informasi AT, BT. CT, TAT, WT, RT dan rata-rata TAT juga WT.
 
 **2. Shortest Job First (SJF) Scheduling Non-preemptive**
 - Contoh FCFS
@@ -95,38 +94,38 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Output Source code
 
-     ![App Screenshoot](assets/SJF_chart.png)
+     ![App Screenshoot](assets/SJF_output.png)
 
 - Flowchart algoritma Shortest Job First (SJF) Scheduling Non-preemptive
 
-
-
-
+     ![App Screenshoot](assets/SJF_chart.png)
 
 - Analisis
 
+Program diatas merupakan  dengan metode Shortest Job First (SJF) Scheduling Non-preemptive Non-Preemtive. `proc` menyimpan informasi setiap proses yaitu nomor, arrival time, burst time, turnaround time dan waktu selesai. User mengimput banyaknya proses yang ingin dieksekusi. Algoritma ini mengurutkan eksekusi proses berdasarkan **burst-time terkecil akan dijalankan terlebih dahulu**. Program memberi informasi AT, BT. CT, TAT, WT, RT dan rata-rata TAT juga WT.
 
 **3.    Round Robin**
 
-- Contoh FCFS
+- Contoh Round Robin
 
     ![App Screenshoot](assets/RR_contoh.png)
 
 - Output Source code
 
-
-
-
+    ![App Screenshoot](assets/RR_output.png)
 
 - Flowchart algoritma Round Robin
 
-
-
+    ![App Screenshoot](assets/RR_chart.png)
 
 - Analisis
 
-# C. Kesimpulan
+Program diatas adalah implementasi algoritma round robin menggunakan queue. `proc`digunakan untuk menyimpan detail proses seperti nomor, arrival time, burst time dan lain-lain. Fungsi `enqueue` menambahkan elemen proses kedalam antrian sedangkan `dequeue` menghapus elemen dari antrian. `isinQueue`memeriksa apakah elemen ada didalam queue. Fungsi `read` menampilkan input proses dari user yang akan dieksekusi didalam `main` yakni diurutkan berdasarkan waktu kedatangan kemudian dijadwalkan menggunakan algoritma Round Robin (diberi batas time quantum).
 
+# C. Kesimpulan
+Penjadwalan CPU merupakan pemilihan proses dari antrian ready untuk dapat dieksekusi. Penjadwalan CPU merupakan konsep dari multiprogramming, dimana CPU digunakan secara bergantian untuk proses yang berbeda. Dalam kasus ini menggunakan 3 macam algoritma scedulling yaitu FCFS, SFJ Non-Preemtive dan Round Robin.
 
 # D. Daftar Pustaka 
 - [Algoritma Sceduling](https://www.studentterpelajar.com/2020/11/pengertian-dan-contoh-algortima.html)
+
+- [CPU Sceduling](https://agungprabowo8800.medium.com/proses-penjadwalan-cpu-fa53f139f808)
