@@ -27,51 +27,47 @@
 <p>FLOPS adalah singkatan dari istilah dalam bahasa Inggris Floating point Operations Per Second yang merujuk pada satuan untuk jumlah perhitungan yang dapat dilakukan oleh sebuah perangkat komputasi (dalam hal ini adalah komputer) terhadap bilangan pecahan (floating point) tiap satu satuan waktu.</p>
 
 
-<h2 align="center">Melakukan Benchmarking pada PC</h2>
+<h2 align="center">Melakukan Benchmarking pada CPU</h2>
 
-1. **Melakukan Instalasi Package GCC,Make dan Git pada Debian 12 yang sudah terinstall**
-<img src="img/sudo-apt-update.jpeg" alt="">
-<br>
-<img src="img/sudogcc.jpg" alt="">
-
+**1. Melakukan Instalasi Package GCC,Make dan Git pada Debian 12 yang sudah terinstall**
 <p>Lakukan perintah "$ sudo apt update" pada terminal kemudian ketik "$ sudo apt install gcc" untuk menginstall compile dan "$ sudo apt install git" untuk menginstall git pada debian</p>
+
+<img src="img/sudo-apt-update.jpeg" alt="">
+
+<img src="img/install_gcc.png" alt="">
 
 
 **2. Melakukan Git clone pada Debian 12**
-<img src="img/gitclone.jpg" alt="">
 
 <p>Arahkan direktori pada terminal yang ingin dituju lalu ketik "$ git clone (paste link github) lalu tekan enter</p>
 
-**3. Melakukan Build Binaries,Cleaning, dan Install Binaries**
-<img src="img/make.jpg" alt="">
+<img src="img/gitclone.jpg" alt="">
 
-<p>Arahkan direktori pada folder flops/iops yang telah dilakukan git clone pada langkah sebelumnya kemudian buka terminal dan ketik "$ make"</p>
-
-<img src="img/makeclean.jpg" alt="">
-
-<p>Kemudian lakukan perintah "$ make clean" lalu ketik "$ sudo make install" untuk menginstall binaries pada debian.</p>
+**3. Melakukan Pengecekan clone didalam directory**
+<img src="img/hasil_clone.png" alt="">
 
 **4. Melakukan Proses Benchmarking menggunakan Iops dan Flops**
-<img src="img/iops64.jpg" alt="">
 
-<p>Untuk benchmarking menggunakan iops ketik pada terminal "$ iops32 $(nproc)" atau iops64 sesuaikan dengan spesifikasi laptop yang dipakai</p>
+<p>Melakukan Runing Program BrenchmarkFLOPS64.c dengan memasukkan CPU cores = 2</p>
 
-<img src="img/flops64.jpg" alt="">
+<img src="img/FLOPS.png" alt="">
 
-<p>Untuk benchmarking pada flops sama seperti iops hanya saja mengganti dari iops menjadi flops "$ flops32 $(nproc)" atau $ flops64 $(nproc)</p>
+<p>Melakukan Runing Program BrenchmarkIOPS64.c dengan memasukkan CPU cores = 2</p>
+
+<img src="img/IOPS.png" alt="">
 
 
 <h2 align="center">Analisa Hasil Benchmarking</h2>
 
 <p justify-content="center">
 
-|                      | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
-|----------------------|------------------------|---------------------------|
-| Total Throughput     | 13.857711 Gigaiops     | 13.727422 Gigaflops       |
-| Single Core Throughput | 6.971539 Gigaiops   | 6.880348 Gigaflops       |
+|                        | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
+|----------------------  |------------------------  |-----------------------------|
+| Total Throughput       | 6.499174 Gigaiops       |     15.161046 Gigaiops      |
+| Single Core Throughput | 3.250956 Gigaflops       |     7.582623 Gigaflops       |
 </p>
 
-<p>Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan FLOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
+<p>Dengan melihat tabel di atas, dapat dilihat bahwa FLOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan IOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
 
 # KESIMPULAN
 IOPS (Input/Output Operations Per Second) dan FLOPS (Floating Point Operations Per Second) menunjukkan bahwa:
