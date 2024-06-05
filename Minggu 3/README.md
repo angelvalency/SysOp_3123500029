@@ -50,7 +50,7 @@
 
 <p>Melakukan Runing Program BrenchmarkFLOPS64.c dengan memasukkan CPU cores = 2</p>
 
-<img src="img/FLOPS.png" alt="">
+<img src="img\FlOPS.png" alt="">
 
 <p>Melakukan Runing Program BrenchmarkIOPS64.c dengan memasukkan CPU cores = 2</p>
 
