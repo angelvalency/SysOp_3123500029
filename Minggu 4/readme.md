@@ -286,7 +286,7 @@
    ```
    $ cat < output
    ```
-   <img src="img/3_4.png" alt="">
+   <img src="img/3_4_4.png" alt="">
    <br>Analisis:
    <br>Tanda < mengalihkan input ke dalam file lainnya.
 
