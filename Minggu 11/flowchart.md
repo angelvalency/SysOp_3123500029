@@ -15,10 +15,12 @@
 </div>
 
 # Daftar Isi
-- [Pendahuluan](#a-pendahuluan)
-- [Tugas Pendahuluan](#b-tugas-pendahuluan)
-- [Kesimpulan](#c-kesimpulan)
-- [Daftar Pustaka](#d-daftarpustaka)
+- [Daftar Isi](#daftar-isi)
+- [A. Pendahuluan](#a-pendahuluan)
+    - [Dasar Teori](#dasar-teori)
+- [B. Tugas Pendahuluan](#b-tugas-pendahuluan)
+- [C. Kesimpulan](#c-kesimpulan)
+- [D. Daftar Pustaka](#d-daftar-pustaka)
 
 
 # A. Pendahuluan
@@ -77,6 +79,7 @@ Pilihlah salah satu source code dari FCFS, SJF dan Round Robin kemudian buatlah 
 
 - Output Source code
 
+     ![App Screenshoot](assets/FCFS_output.png)
      ![App Screenshoot](assets/FCFS_output.png)
 
 - Flowchart algoritma FCFS (First Come First Served)
