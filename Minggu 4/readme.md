@@ -100,6 +100,7 @@
    ```
 
     <img src="img/mkdir.png" alt="">
+
     <br>
     Analisis:
    <br>Mkdir adalah perintah membuat direktori baru dan tidak menampilkan apapun karena error.
@@ -112,7 +113,7 @@
     Ini adalah teks yang saya simpan ke file myfile.txt
    ```
 
-   <img src="img/cat 2.png" alt="">
+   <img src="img/cat_1.png" alt="">
    <br>Analisis:
       <br>perintah cat1> myfile.txt digunakan untuk menyalin input dan menyimpannya didalam file myfile.txt.
 
@@ -125,7 +126,7 @@
     $ cat myfile.txt
    ```
 
-   <img src="img/cat 2_1.png" alt="">
+   <img src="img/cat_2.png" alt="">
    <br>Analisis:
       <br>cat merupakan perintah untuk menampilkan konten dari dalam teks. Perintah cat 0< menunjuk sebuah input berasal dari myfile.
 
@@ -139,7 +140,10 @@
     $ cat myerror.txt
    ```
 
+   <img src="img/error_mydir.png" alt="">
+
    <img src="img/mkdir 2.png" alt="">
+
    <br>Analisis:
      <br> perintah mkdir digunakan untuk membuat direktori (folder) baru di sistem file. Jika terdapat kesalahan saat mencoba membuat directory akan muncul pesan error yang akan diambil dan dialihkan ke file myerror menggunakan 2>
 
@@ -181,7 +185,8 @@
    $ cat surat
    ```
 
-    <img src="img/2_6.png" alt="">
+    <img src="img/2_6 .png" alt="">
+
     <br>Analisis:
     <br>
     - $ echo “kata pertama” > surat akan menambahkan text kedalam file surat. jika file surat sudah ada maka akan ditimpa.
@@ -208,17 +213,22 @@
    ```
 
    <img src="img/2_7.png" alt="">
-   <br>Analisis:
-  <br> cat << digunakan untuk menampilkan teks yang diikuti oleh delimiter (pemisah) yang ditentukan, dalam hal ini, ++ dan %%%. sehingga 3 teks tersebut tidak sebaris linear.
+  <br>Analisis:
+  
+   - cat << digunakan untuk menampilkan teks yang diikuti oleh delimiter (pemisah) yang ditentukan, dalam hal ini, ++ dan %%%. sehingga 3 teks tersebut tidak sebaris linear.
+
 
 
 8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi “-“ berarti menyelipkan input dari keyboard
    ```
    $ cat myfile.txt – surat
    ```
+
    <img src="img/2_8.png" alt="">
-   <br>Analisis: 
-   <br>$ cat myfile.txt surat Menampilkan isi dari file myfile.txt diikuti oleh isi dari file surat yaitu ini adalah text yang saya simpan ke file myfile.txt
+
+   <br>
+   Analisis: 
+   - $ cat myfile.txt surat Menampilkan isi dari file myfile.txt diikuti oleh isi dari file surat yaitu ini adalah text yang saya simpan ke file myfile.txt
 
 ## Percobaan 3 : Pipa (pipeline)
 
@@ -236,8 +246,9 @@
    ```
 
    <img src="img/who.png" alt="">
+
    <img src="img/who2.png" alt="">
-   <img src="img/who3.png" alt="">
+   
    Analisis:
    - $ who menampilkan daftar pengguna yang sedang masuk (logged in) ke sistem <br>
    - $ who | sort engalihkan output dari perintah who ke perintah sort, yang kemudian mengurutkan daftar pengguna sesuai abjad berdasarkan nama pengguna <br>
