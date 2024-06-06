@@ -189,7 +189,7 @@
 
     <br>Analisis:
     <br>
-    - $ echo “kata pertama” > surat akan menambahkan text kedalam file surat. jika file surat sudah ada maka akan ditimpa.
+   - $ echo “kata pertama” > surat akan menambahkan text kedalam file surat. jika file surat sudah ada maka akan ditimpa.
     <br>
    -  $ echo “kata kedua” >> surat dan $ echo “kata ketiga” >> surat  menambahkan kata kedua tanpa menghapus kata pertama.
     <br>
