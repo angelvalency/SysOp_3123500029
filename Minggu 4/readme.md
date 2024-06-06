@@ -188,14 +188,14 @@
     <img src="img/2_6 .png" alt="">
 
     <br>Analisis:
-    <br>
-   - $ echo “kata pertama” > surat akan menambahkan text kedalam file surat. jika file surat sudah ada maka akan ditimpa.
-    <br>
-   -  $ echo “kata kedua” >> surat dan $ echo “kata ketiga” >> surat  menambahkan kata kedua tanpa menghapus kata pertama.
-    <br>
-   - $cat surat menampilkan tiga baris teks yakni kata pertama, kata kedua, kata ketiga.
-   <br>
-   - $ echo “kata keempat” > surat menimpa tiga baris text sebelumnya sehingga ketika di cat hanya menampilkan kata keempat
+   
+- $ echo “kata pertama” > surat akan menambahkan text kedalam file surat. jika file surat sudah ada maka akan ditimpa.
+   
+-  $ echo “kata kedua” >> surat dan $ echo “kata ketiga” >> surat  menambahkan kata kedua tanpa menghapus kata pertama.
+   
+- $cat surat menampilkan tiga baris teks yakni kata pertama, kata kedua, kata ketiga.
+   
+- $ echo “kata keempat” > surat menimpa tiga baris text sebelumnya sehingga ketika di cat hanya menampilkan kata keempat
 
 7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda penutup harus diberikan pada awal baris
 
