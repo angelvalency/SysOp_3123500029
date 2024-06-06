@@ -355,10 +355,50 @@
 ## LATIHAN:
 
 1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output   ke file baru.
+   
+   <img src="img/lat_1_1.png" alt="">
+
+   <img src="img/lat_1_2.png" alt="">
+
+   Analisis:
+
+   Perintah `ls` digunakan untuk membuka semua file atau directory linux. Append `>` untuk membelokkan standart output ke file baru.
+
 2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
+
+   <img src="img/lat_2.png" alt="">
+
+    <img src="img/lat_2_2.png" alt="">
+
+   Analisis
+
+    `/etc/passwd` adalah perintah untuk menampilkan semua daftar file diluar bahkan didalam directory. Append `>>` membelokkan standar output ke file baru tanpa menghilangkan isi file sebelumnya
+
 3. Urutkan file baru dengan cara membelokkan standard input.
+   
+    <img src="img/lat_3.png" alt="">
+
+    Analisis
+
+    `sort` digunakan untuk mengurutkan nama file berdasarkan abjad dan append `<` membelokkan standart inputnya
+
 4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
+   
+   <img src="img/lat_4.png" alt="">
+
+   Analisis
+
+   `sort` digunakan untuk mengurutkan file yang dibelokkan standar inoutnya ke baru menggunakan append `<`. Lalu, standart outputnya dibelokkan ke file baru.urut menggunakan append `>`.
+
+
 5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
+
+   <img src="img/lat_5.png" alt="">
+
+   Analisis
+
+   Perintah `mkdir` untuk membuat directory. Jika directory dibuat lebih dari satu kali, maka pada pembuatan kedua akan muncul pesan error. pesan error tersebut kemudian dibelokkan dengan append `2>`  pada rmdierror.txt.
+
 6. Urutkan kalimat berikut :
    ```
    Jakarta
@@ -368,10 +408,25 @@
    Palembang
    Lampung
    ```
-  Dengan menggunakan notasi **here document (<@@@ ...@@@)** . [HINT](https://www.geeksforgeeks.org/how-to-use-here-document-in-bash-programming/)
-  
+   Dengan menggunakan notasi **here document (<@@@ ...@@@)** . [HINT](https://www.geeksforgeeks.org/how-to-use-here-document-in-bash-programming/)
+
+   <img src="img/lat_6.png" alt="">
+   
+   Analisis
+
+   notasi `here document (<@)` berfungsi untuk memberikan output newline pada input user yang dibelokkan di file kota.txt, file kota.txt diurutkan dengan `sort` sehingga  outputnya tidak berada dalam satu baris, tetapi setiap kata berbeda line dalam kondisi terurut
+
 
 7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
+
+   <img src="img/lat_7.png" alt="">
+
+   <img src="img/lat_7_1.png" alt="">
+
+   Analisis
+
+   Jumlah baris, kata dan karakter dapat diketahui dengan perintah `wc` dari baru.urut yang akan dibelokkan ke baru tanpa mengubah isi file baru sebelumnya.
+
 8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
    ```
     $ cat > hello.txt
@@ -385,13 +440,20 @@
     $ cat hello.txt | sort | uniq
     $ cat hello.txt | grep “dog” | grep –v “cat”
    ```
+
+   <img src="img/lat_8.png" alt="">
+
+   Analisis
+
+   `uniq` digunakan untuk menghilangkan baris urut yang duplicate. `grep` memfilter dan hanya menampilkan kalimat mengandung kata "dog" dan menghilangkan baris yang juga mengandung kata "cat" dengan menggunakan opsi `grep -v` dari file hello.txt 
+
 ## Kesimpulan
 
 Operasi input-output pipeline redirection pada sistem Debian/Linux memungkinkan pengguna untuk: <br><br>
  - Mengalihkan Output: Mengarahkan output dari suatu perintah ke file atau perangkat lain.<br>
  - Menggunakan Pipelines: Mengalirkan output dari satu perintah ke input dari perintah berikutnya.<br> 
  - Penanganan Pesan Kesalahan: Memisahkan penanganan pesan kesalahan dari output utama.<br> 
- - Mengatur Aliran Data: Menggunakan operator seperti >, >>, <, |, 2>, 2>&1 untuk mengatur arah aliran data input dan output <br>
+ - Mengatur Aliran Data: Menggunakan operator seperti `>, >>, <, |, 2>, 2>&1 ` untuk mengatur arah aliran data input dan output <br>
  -  Fleksibilitas: Menyediakan fleksibilitas dalam mengelola output dan input perintah-perintah, memungkinkan penyimpanan output dalam file untuk analisis atau referensi di masa mendatang
 
 <br>
